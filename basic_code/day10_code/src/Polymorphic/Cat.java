@@ -1,10 +1,16 @@
 package Polymorphic;
 
-public class Zi extends Fu {
+public class Cat extends Animal {
 
     @Override
-    public void method() {
-        System.out.println("子类方法");
+    public void eat() {
+        System.out.println("猫吃鱼");
     }
+
+    public void method(int a){
+
+    }
+
+    int num = 20;
 
 }

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="" />
+    <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Interface/Test/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Interface/Test/DemoMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Interface/Test/Fu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Interface/Test/Zi.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +41,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YD8n8pgIEvEjlta1YR03BEYn4K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
@@ -46,7 +64,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoMain">
+  <component name="RunManager" selected="Application.DemoMain (1)">
     <configuration name="DemoAbstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractClass.DemoAbstract" />
       <module name="day09_code" />
@@ -74,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface.Test.DemoMain" />
+    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphic.DemoMain" />
       <module name="day10_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interface.MultiExtends.*" />
+          <option name="PATTERN" value="Polymorphic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Extends.MethodOverride.DemoOverride" />
-      <module name="day09_code" />
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interface.Test.DemoMain" />
+      <module name="day10_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Extends.MethodOverride.*" />
+          <option name="PATTERN" value="Interface.MultiExtends.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoMain (1)" />
         <item itemvalue="Application.DemoMain" />
         <item itemvalue="Application.MainRedPacket" />
         <item itemvalue="Application.MethodDefine" />
         <item itemvalue="Application.DemoAbstract" />
-        <item itemvalue="Application.DemoOverride" />
       </list>
     </recent_temporary>
   </component>
@@ -187,10 +205,25 @@
       <workItem from="1585287119359" duration="6882000" />
       <workItem from="1585362495043" duration="12516000" />
       <workItem from="1585447765134" duration="14061000" />
+      <workItem from="1585555965645" duration="2261000" />
+      <workItem from="1585563026035" duration="1732000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

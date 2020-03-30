@@ -1,13 +1,14 @@
 package Polymorphic;
 
-public class Fu {
+public class Animal {
+
+    public void eat() {
+        System.out.println("动物吃东西");
+    }
 
     public void method(){
-        System.out.println("父类方法");
     }
 
-    public void methodFu(){
-        System.out.println("父类特有方法");
-    }
+    int num = 10;
 
 }
