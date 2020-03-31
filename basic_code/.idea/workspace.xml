@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/DemoMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +199,7 @@
       <workItem from="1585447765134" duration="14061000" />
       <workItem from="1585555965645" duration="2261000" />
       <workItem from="1585563026035" duration="1732000" />
-      <workItem from="1585627845001" duration="1471000" />
+      <workItem from="1585627845001" duration="3230000" />
     </task>
     <servers />
   </component>
