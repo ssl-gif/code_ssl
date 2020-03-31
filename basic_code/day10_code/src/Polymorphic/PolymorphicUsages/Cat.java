@@ -1,4 +1,4 @@
-package Polymorphic;
+package Polymorphic.PolymorphicUsages;
 
 public class Cat extends Animal {
 
@@ -6,11 +6,5 @@ public class Cat extends Animal {
     public void eat() {
         System.out.println("猫吃鱼");
     }
-
-    public void method(int a){
-
-    }
-
-    int num = 20;
 
 }

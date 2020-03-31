@@ -1,4 +1,4 @@
-package Polymorphic;
+package Polymorphic.PolymorphicUsages;
 
 public class Dog extends Animal {
 
