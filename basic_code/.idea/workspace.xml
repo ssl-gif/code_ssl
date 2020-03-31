@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/DemoMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/Test.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -77,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AbstractClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphic.PolymorphicUsages.DemoMain" />
+      <module name="day10_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Polymorphic.PolymorphicUsages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,6 +222,8 @@
       <workItem from="1585555965645" duration="2261000" />
       <workItem from="1585563026035" duration="1732000" />
       <workItem from="1585627845001" duration="3230000" />
+      <workItem from="1585643801099" duration="5610000" />
+      <workItem from="1585671296470" duration="123000" />
     </task>
     <servers />
   </component>
