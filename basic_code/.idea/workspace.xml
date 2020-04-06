@@ -2,24 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/KeyBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/USB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketCode/NormalMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketCode/RandomMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketCode/RedPacketInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketCode/RedPacketMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketFrame/OpenMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketFrame/RedPacketFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/01_input.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/02_open_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/02_open_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/03_money_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/FinalKeyWords/Student01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/FinalKeyWords/Student02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/InnerClass/AnonymousInnerClass/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/InnerClass/AnonymousInnerClass/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/InnerClass/AnonymousInnerClass/InterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/InnerClass/LocalInnerClass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/InnerClass/MemberInnerClass/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/InnerClass/MemberInnerClass/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/InnerClass/MemberInnerClass/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ReferenceTypeUsageSummary/ClassAsMemberVariable/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ReferenceTypeUsageSummary/ClassAsMemberVariable/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ReferenceTypeUsageSummary/ClassAsMemberVariable/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMemberVariable/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMemberVariable/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMemberVariable/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMemberVariable/SkillImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMethod/DemoMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/DemoMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day10_code/Polymorphic/PolymorphicUsages/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/DemoMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +54,13 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="basic_code" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -57,11 +74,12 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day11_code/src/ReferenceTypeUsageSummary" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,10 +94,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ReferenceTypeUsageSummary.InterfaceAsMemberVariable" />
+      <recent name="FinalKeyWords" />
+      <recent name="InnerClass.AnonymousInnerClass.AbstractClass" />
+      <recent name="FinalKeywords" />
       <recent name="InterfaceAndPolymorphicExample" />
-      <recent name="Polymorphic.ReferenceTypeConversion" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code_ssl\basic_code\day11_code\src\ReferenceTypeUsageSummary" />
       <recent name="E:\code_ssl\basic_code\day10_code\src\Polymorphic\BenefitsOfPolymorphic" />
     </key>
   </component>
@@ -95,8 +117,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoMain (3)">
+  <component name="RunManager" selected="Application.RedPacketMain">
     <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReferenceTypeUsageSummary.InterfaceAsMethod.DemoMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReferenceTypeUsageSummary.InterfaceAsMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClass.MemberInnerClass.DemoMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InnerClass.MemberInnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReferenceTypeUsageSummary.ClassAsMemberVariable.DemoMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReferenceTypeUsageSummary.ClassAsMemberVariable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReferenceTypeUsageSummary.InterfaceAsMemberVariable.DemoMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReferenceTypeUsageSummary.InterfaceAsMemberVariable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClass.Test.DemoMain" />
+      <module name="day11_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InnerClass.AnonymousInnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polymorphic.PolymorphicUsages.DemoMain" />
       <module name="day10_code" />
       <extension name="coverage">
@@ -109,64 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphic.BenefitsOfPolymorphic.DemoMain" />
-      <module name="day10_code" />
+    <configuration name="RedPacketMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComprehensiveCase.RedPacketCode.RedPacketMain" />
+      <module name="day11_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polymorphic.BenefitsOfPolymorphic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfaceAndPolymorphicExample.DemoMain" />
-      <module name="day10_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterfaceAndPolymorphicExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface.Test.DemoMain" />
-      <module name="day10_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interface.MultiExtends.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphic.PolymorphicUsages.DemoMain" />
-      <module name="day10_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polymorphic.PolymorphicUsages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainRedPacket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExtendsExample.MainRedPacket" />
-      <module name="day09_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExtendsExample.*" />
+          <option name="PATTERN" value="ComprehensiveCase.RedPacketCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoMain (3)" />
-        <item itemvalue="Application.DemoMain (2)" />
+        <item itemvalue="Application.RedPacketMain" />
         <item itemvalue="Application.DemoMain (1)" />
         <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.MainRedPacket" />
+        <item itemvalue="Application.DemoMain (5)" />
+        <item itemvalue="Application.DemoMain (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +277,11 @@
       <workItem from="1585671296470" duration="123000" />
       <workItem from="1585728070837" duration="5464000" />
       <workItem from="1585828511719" duration="9612000" />
+      <workItem from="1585931285750" duration="504000" />
+      <workItem from="1585998201327" duration="10898000" />
+      <workItem from="1586051522095" duration="3191000" />
+      <workItem from="1586065857238" duration="23903000" />
+      <workItem from="1586153962898" duration="8733000" />
     </task>
     <servers />
   </component>
@@ -260,5 +300,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
