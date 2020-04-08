@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../advanced_code/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/day01_code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/ObjectClass/EqualsMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/ObjectClass/ObjectsClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/ObjectClass/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/ObjectClass/ToStringMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/out/production/day01_code/ObjectClass/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/DateAndTimeClass/CalendarClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/DateAndTimeClass/DateClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/DateAndTimeClass/DateFormatClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/DateAndTimeClass/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/StringBuilderClass/StringBuilderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day01_code/src/SystemClass/SystemClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day01_code/ObjectClass/ObjectsClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/out/production/day01_code/ObjectClass/ObjectsClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListClassUsage/ArrayListBasicDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListClassUsage/ArrayListBasicDataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_code/src/StringClass/StringEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_code/src/StringClass/StringEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListClassUsage/ArrayListBasicDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListUsage/ArrayListBasicDataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListClassUsage/ArrayListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListUsage/ArrayListObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListClassUsage/ArrayListString.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListUsage/ArrayListString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListPractice/ArrayListPractice03.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListPractice/ArrayListPractice03.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -268,6 +266,8 @@
       <workItem from="1586153962898" duration="8733000" />
       <workItem from="1586175439510" duration="789000" />
       <workItem from="1586184801224" duration="2412000" />
+      <workItem from="1586272852111" duration="24000" />
+      <workItem from="1586313488026" duration="1096000" />
     </task>
     <servers />
   </component>

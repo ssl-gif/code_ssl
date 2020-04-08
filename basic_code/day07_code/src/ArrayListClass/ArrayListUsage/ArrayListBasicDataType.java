@@ -28,7 +28,7 @@ ArrayList<E>集合存储基本类型数据，必须要使用基本数据类型�
 
  */
 
-package ArrayListClass.ArrayListClassUsage;
+package ArrayListClass.ArrayListUsage;
 
 import java.util.ArrayList;
 

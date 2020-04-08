@@ -5,12 +5,12 @@
 
  */
 
-package ArrayListClass.ArrayListClassUsage;
+package ArrayListClass.ArrayListUsage;
 
 import ArrayListClass.ObjectArray.Student;
 import java.util.ArrayList;
 
-public class ArrayListClass {
+public class ArrayListObject {
     public static void main(String[] args) {
 
         // 创建三个Student类的对象
@@ -28,7 +28,7 @@ public class ArrayListClass {
 
         /*
         由于list集合里面存储的是引用类型变量，则直接打印对象名list，得到的是如下地址值：
-        [ArrayListClass.ObjectArray.Student@16b98e56, ArrayListClass.ObjectArray.Student@7ef20235, ArrayListClass.ObjectArray.Student@27d6c5e0]
+        [ArrayListObject.ObjectArray.Student@16b98e56, ArrayListObject.ObjectArray.Student@7ef20235, ArrayListObject.ObjectArray.Student@27d6c5e0]
          */
         System.out.println(list);
 

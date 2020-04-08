@@ -16,7 +16,7 @@ ArrayList<E>集合类中的常用方法：
 
  */
 
-package ArrayListClass.ArrayListClassUsage;
+package ArrayListClass.ArrayListUsage;
 
 import java.util.ArrayList;
 
