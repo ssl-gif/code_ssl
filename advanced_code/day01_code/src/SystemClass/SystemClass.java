@@ -1,5 +1,6 @@
 
 /*
+
     java.lang.System类中提供了大量的静态方法，可以获取与系统相关的信息或系统级操作。常用的方法有：
 
 public static long currentTimeMillis()：返回当前时间的毫秒值

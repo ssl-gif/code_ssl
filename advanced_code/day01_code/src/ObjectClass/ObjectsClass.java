@@ -2,8 +2,7 @@
 /*
 
     在JDK7以后添加了一个Objects工具类，它提供了一些静态方法来操作对象，这些方法是
-null-save (空指针安全的)或 null-tolerant (容忍空指针的)，里面的方法用于计算对象
-的hashcode、返回对象的字符串表示形式、比较两个对象等。
+null-save (空指针安全的)或 null-tolerant (容忍空指针的)
 
 Objects类的equals方法：比较两个对象地址值，可以防止空指针异常。源码如下：
 
