@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="sample@localhost">
+  <database-model serializer="dbm" dbms="DB2_LUW" family-id="DB2_LUW" format-version="4.15">
+    <root id="1">
+      <ServerVersion>11.1.4</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="DB2ADMIN">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="NULLID"/>
+    <schema id="4" parent="1" name="SQLJ"/>
+    <schema id="5" parent="1" name="SSL"/>
+    <schema id="6" parent="1" name="SYSCAT">
+      <Substituted>1</Substituted>
+    </schema>
+    <schema id="7" parent="1" name="SYSFUN">
+      <Substituted>1</Substituted>
+    </schema>
+    <schema id="8" parent="1" name="SYSIBM">
+      <Substituted>1</Substituted>
+    </schema>
+    <schema id="9" parent="1" name="SYSIBMADM">
+      <Substituted>1</Substituted>
+    </schema>
+    <schema id="10" parent="1" name="SYSIBMINTERNAL"/>
+    <schema id="11" parent="1" name="SYSIBMTS"/>
+    <schema id="12" parent="1" name="SYSPROC">
+      <Substituted>1</Substituted>
+    </schema>
+    <schema id="13" parent="1" name="SYSPUBLIC">
+      <Substituted>1</Substituted>
+    </schema>
+    <schema id="14" parent="1" name="SYSSTAT">
+      <Substituted>1</Substituted>
+    </schema>
+    <schema id="15" parent="1" name="SYSTOOLS">
+      <Substituted>1</Substituted>
+    </schema>
+    <role id="16" parent="1" name="SYSDEBUG">
+      <ObjectId>11</ObjectId>
+    </role>
+    <role id="17" parent="1" name="SYSDEBUGPRIVATE">
+      <ObjectId>12</ObjectId>
+    </role>
+    <role id="18" parent="1" name="SYSTS_ADM">
+      <ObjectId>8</ObjectId>
+    </role>
+    <role id="19" parent="1" name="SYSTS_MGR">
+      <ObjectId>9</ObjectId>
+    </role>
+    <role id="20" parent="1" name="SYSTS_USR">
+      <ObjectId>10</ObjectId>
+    </role>
+    <table id="21" parent="2" name="CLASSES">
+      <Comment>班级表</Comment>
+      <PageFreePercentage>-1</PageFreePercentage>
+    </table>
+    <table id="22" parent="2" name="STUDENTS">
+      <Comment>学生表</Comment>
+      <PageFreePercentage>-1</PageFreePercentage>
+    </table>
+    <column id="23" parent="21" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <PartitionHashIndex>-1</PartitionHashIndex>
+    </column>
+    <column id="24" parent="21" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+      <PartitionHashIndex>-1</PartitionHashIndex>
+    </column>
+    <index id="25" parent="21" name="CLASSES_PK">
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <SchemaName>DB2ADMIN</SchemaName>
+    </index>
+    <key id="26" parent="21" name="CLASSES_PK">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="22" name="ID">
+      <Position>1</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <PartitionHashIndex>-1</PartitionHashIndex>
+    </column>
+    <column id="28" parent="22" name="CLASS_ID">
+      <Position>2</Position>
+      <DataType>BIGINT|0s</DataType>
+      <NotNull>1</NotNull>
+      <PartitionHashIndex>-1</PartitionHashIndex>
+    </column>
+    <column id="29" parent="22" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <PartitionHashIndex>-1</PartitionHashIndex>
+    </column>
+    <column id="30" parent="22" name="GENDER">
+      <Position>4</Position>
+      <DataType>VARCHAR(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <PartitionHashIndex>-1</PartitionHashIndex>
+    </column>
+    <column id="31" parent="22" name="SCORE">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+      <PartitionHashIndex>-1</PartitionHashIndex>
+    </column>
+    <index id="32" parent="22" name="STUDENTS_PK">
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+      <SchemaName>DB2ADMIN</SchemaName>
+    </index>
+    <key id="33" parent="22" name="STUDENTS_PK">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

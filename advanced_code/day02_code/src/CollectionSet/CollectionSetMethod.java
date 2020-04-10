@@ -1,18 +1,16 @@
 
 /*
 
-    java.util.Collection接口是所有单列集合的最顶层的接口，里边定义了所有单列集合共性的方法，
-任意的单列集合都可以使用Collection接口中的方法。
+    java.util.Collection接口是所有单列集合的最顶层的接口，里边定义了所有单列集合共性的抽象方法，
+所有单列集合实现类都实现了Collection接口中的这些抽象方法，并且实现的方法的功能一样。
 
-public boolean add(E e)：把给定的对象添加到当前集合中
-public boolean remove(E e)：把给定的对象在当前集合中删除
-public boolean contains(E e)：判断当前集合中是否包含给定的对象
-public boolean isEmpty()：判断当前集合是否为空，集合为空返回true，集合不为空返回false
-public int size()：返回集合中元素的个数
-public Object[] toArray()：把集合中的元素，存储到数组中
-public void clear()：清空集合中所有的元素，但是不删除集合，集合还存在
-
-*其实这些方法都是Collection接口中的抽象方法，被各个集合子类覆盖重写了
+boolean add(E e)：把给定的对象添加到当前集合中
+boolean remove(E e)：把给定的对象在当前集合中删除
+boolean contains(E e)：判断当前集合中是否包含给定的对象
+boolean isEmpty()：判断当前集合是否为空，集合为空返回true，集合不为空返回false
+int size()：返回集合中元素的个数
+Object[] toArray()：把集合中的元素，存储到数组中
+void clear()：清空集合中所有的元素，但是不删除集合，集合还存在
 
  */
 

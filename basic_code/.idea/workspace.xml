@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../advanced_code/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/BenefitsOfGeneric/BenefitsOfGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericUsages/GenericClass/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericUsages/GenericClass/GenericClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericUsages/GenericInterface/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericUsages/GenericMethod/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericUsages/GenericMethod/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericWildcard/GenericWildcard01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Generic/GenericWildcard/GenericWildcard02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_code/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_code/day02_code/src/CollectionSet/CollectionSetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/CollectionSet/CollectionSetMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_code/day02_code/src/Iterator/IteratorInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/day02_code/src/Iterator/IteratorInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day02_code/CollectionSet/CollectionSetMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/out/production/day02_code/CollectionSet/CollectionSetMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day02_code/Iterator/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day02_code/Iterator/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -257,6 +276,8 @@
       <workItem from="1586272852111" duration="24000" />
       <workItem from="1586313488026" duration="1096000" />
       <workItem from="1586411630974" duration="59000" />
+      <workItem from="1586500960144" duration="63000" />
+      <workItem from="1586520677379" duration="19000" />
     </task>
     <servers />
   </component>

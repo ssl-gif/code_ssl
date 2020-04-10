@@ -2,12 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day02_code/src/CollectionSet/CollectionSetMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Iterator/ForeachLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Iterator/IteratorInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6387efbd-f06a-4cf2-b496-9dbcf49c065b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/ComprehensiveCase/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/BenefitsOfGeneric/BenefitsOfGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericClass/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericClass/GenericClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericWildcard/GenericWildcard01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericWildcard/GenericWildcard02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/day03_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/ComprehensiveCase/DemoMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/BenefitsOfGeneric/BenefitsOfGeneric.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericClass/DemoMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericClass/GenericClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericInterface/DemoMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericInterface/GenericInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericMethod/DemoMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericMethod/GenericMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericWildcard/GenericWildcard01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericWildcard/GenericWildcard02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Iterator/ForeachLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Iterator/IteratorInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day02_code/META-INF/day02_code.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_code/src/ObjectClass/ObjectsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_code/src/ObjectClass/ObjectsClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_code/src/SystemClass/SystemClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_code/src/SystemClass/SystemClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_code/src/CollectionSet/CollectionSetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/CollectionSet/CollectionSetMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_code/src/Iterator/IteratorInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Iterator/IteratorInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day02_code/CollectionSet/CollectionSetMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02_code/CollectionSet/CollectionSetMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day02_code/Iterator/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day02_code/Iterator/Demo02.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,9 +48,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sample@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sample@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sample@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="DB2ADMIN: schema" type="30942ef4:Db2ImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,6 +102,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="db2" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -50,8 +114,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Generic.GenericWildcard" />
+      <recent name="Generic.GenericInterface" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,13 +136,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IteratorInterface">
-    <configuration name="CalendarClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DateAndTimeClass.CalendarClass" />
-      <module name="day01_code" />
+  <component name="RunManager" selected="Application.DemoMain (1)">
+    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComprehensiveCase.DemoMain" />
+      <module name="day02_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DateAndTimeClass.*" />
+          <option name="PATTERN" value="ComprehensiveCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.GenericUsages.GenericClass.DemoMain" />
+      <module name="day02_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generic.GenericUsages.GenericClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.GenericUsages.GenericInterface.DemoMain" />
+      <module name="day02_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generic.GenericUsages.GenericInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,19 +182,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DateAndTimeClass.Practice" />
-      <module name="day01_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DateAndTimeClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +217,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoMain (1)" />
         <item itemvalue="Application.IteratorInterface" />
+        <item itemvalue="Application.DemoMain (1)" />
+        <item itemvalue="Application.DemoMain" />
         <item itemvalue="Application.StringBuilderClass" />
-        <item itemvalue="Application.SystemClass" />
-        <item itemvalue="Application.CalendarClass" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -158,6 +252,8 @@
       <workItem from="1586394828502" duration="6364000" />
       <workItem from="1586428986328" duration="7164000" />
       <workItem from="1586439224484" duration="199000" />
+      <workItem from="1586480243432" duration="610000" />
+      <workItem from="1586488492556" duration="19344000" />
     </task>
     <servers />
   </component>
