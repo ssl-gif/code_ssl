@@ -2,45 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6387efbd-f06a-4cf2-b496-9dbcf49c065b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/ComprehensiveCase/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/BenefitsOfGeneric/BenefitsOfGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericClass/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericClass/GenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericWildcard/GenericWildcard01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericWildcard/GenericWildcard02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_code/day03_code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/ComprehensiveCase/DemoMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/BenefitsOfGeneric/BenefitsOfGeneric.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericClass/DemoMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericClass/GenericClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericInterface/DemoMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericInterface/GenericInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericMethod/DemoMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericUsages/GenericMethod/GenericMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericWildcard/GenericWildcard01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Generic/GenericWildcard/GenericWildcard02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Iterator/ForeachLoop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/Iterator/IteratorInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day02_code/META-INF/day02_code.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/ListSet/LinkedListSetUsages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/ListSet/ListUniqueMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/HashSetSaveCustomType/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/HashSetSaveCustomType/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/HashSetUsages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/LinkedHashSetUsages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/VariablePara.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/CollectionSet/CollectionSetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/CollectionSet/CollectionSetMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Iterator/IteratorInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Iterator/IteratorInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day02_code/CollectionSet/CollectionSetMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day02_code/CollectionSet/CollectionSetMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day02_code/Iterator/Demo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day02_code/Iterator/Demo02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,26 +105,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoMain (1)">
-    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComprehensiveCase.DemoMain" />
-      <module name="day02_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ComprehensiveCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VariablePara">
     <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic.GenericUsages.GenericClass.DemoMain" />
-      <module name="day02_code" />
+      <option name="MAIN_CLASS_NAME" value="SetSet.HashSetSaveCustomType.DemoMain" />
+      <module name="day03_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Generic.GenericUsages.GenericClass.*" />
+          <option name="PATTERN" value="SetSet.HashSetSaveCustomType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Iterator.IteratorInterface" />
-      <module name="day02_code" />
+    <configuration name="HashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetSet.HashCode" />
+      <module name="day03_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Iterator.*" />
+          <option name="PATTERN" value="SetSet.HashSetSaveCustomType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringBuilderClass.StringBuilderClass" />
-      <module name="day01_code" />
+    <configuration name="HashSetUsages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetSet.HashSetUsages" />
+      <module name="day03_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringBuilderClass.*" />
+          <option name="PATTERN" value="SetSet.HashSetSaveCustomType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +158,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SystemClass.SystemClass" />
-      <module name="day01_code" />
+    <configuration name="LinkedListSetUsages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListSet.LinkedListSetUsages" />
+      <module name="day03_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SystemClass.*" />
+          <option name="PATTERN" value="ListSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariablePara" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetSet.VariablePara" />
+      <module name="day03_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SetSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoMain (1)" />
-        <item itemvalue="Application.IteratorInterface" />
-        <item itemvalue="Application.DemoMain (1)" />
+        <item itemvalue="Application.VariablePara" />
         <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.StringBuilderClass" />
+        <item itemvalue="Application.HashCode" />
+        <item itemvalue="Application.HashSetUsages" />
+        <item itemvalue="Application.LinkedListSetUsages" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +222,9 @@
       <workItem from="1586428986328" duration="7164000" />
       <workItem from="1586439224484" duration="199000" />
       <workItem from="1586480243432" duration="610000" />
-      <workItem from="1586488492556" duration="19344000" />
+      <workItem from="1586488492556" duration="19507000" />
+      <workItem from="1586586237993" duration="1868000" />
+      <workItem from="1586667545572" duration="21081000" />
     </task>
     <servers />
   </component>
