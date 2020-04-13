@@ -1,5 +1,7 @@
 package Generic.GenericUsages.GenericMethod;
 
+import java.util.ArrayList;
+
 public class DemoMain {
     public static void main(String[] args) {
 
@@ -10,6 +12,10 @@ public class DemoMain {
         // 静态方法
         GenericMethod.method02(1);
         GenericMethod.method02("qwert");
+
+        // 泛型类、接口作为方法参数
+        GenericMethod.method03(new ArrayList<Integer>());
+        GenericMethod.method03(new ArrayList<String>());
 
     }
 }

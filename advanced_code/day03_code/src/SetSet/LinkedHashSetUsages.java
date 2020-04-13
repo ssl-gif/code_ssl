@@ -11,13 +11,13 @@ public class LinkedHashSetUsages {
         set.add("abc");
         set.add("abc");
         set.add("itcast");
-        System.out.println(set); // [abc, www, itcast]  无序，不允许重复
+        System.out.println(set);    // [abc, www, itcast]  无序，不允许重复
 
         LinkedHashSet<String> linked = new LinkedHashSet<>();
         linked.add("www");
         linked.add("abc");
         linked.add("abc");
         linked.add("itcast");
-        System.out.println(linked); // [www, abc, itcast]   有序，不允许重复
+        System.out.println(linked); // [www, abc, itcast]  有序，不允许重复
     }
 }

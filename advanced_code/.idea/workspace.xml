@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day03_code/src/ListSet/LinkedListSetUsages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_code/src/ListSet/ListUniqueMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/HashSetSaveCustomType/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/HashSetSaveCustomType/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/HashSetUsages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/LinkedHashSetUsages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03_code/src/SetSet/VariablePara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/CollectionsClass/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/CollectionsClass/SortMehod01/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/CollectionsClass/SortMehod01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/CollectionsClass/SortMehod02/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03_code/src/CollectionsClass/SortMehod02/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/GenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/GenericMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_code/src/SetSet/LinkedHashSetUsages.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_code/src/SetSet/LinkedHashSetUsages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day03_code/SetSet/VariablePara.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day03_code/SetSet/VariablePara.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +79,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day03_code/src/CollectionsClass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,6 +96,9 @@
       <recent name="Generic.GenericWildcard" />
       <recent name="Generic.GenericInterface" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code_ssl\advanced_code\day03_code\src\CollectionsClass" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,7 +112,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VariablePara">
+  <component name="RunManager" selected="Application.DemoMain (2)">
+    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsClass.SortMehod01.DemoMain" />
+      <module name="day03_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionsClass.SortMehod01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsClass.SortMehod02.DemoMain" />
+      <module name="day03_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionsClass.SortMehod02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SetSet.HashSetSaveCustomType.DemoMain" />
       <module name="day03_code" />
@@ -145,32 +178,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetUsages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetSet.HashSetUsages" />
-      <module name="day03_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SetSet.HashSetSaveCustomType.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListSetUsages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListSet.LinkedListSetUsages" />
-      <module name="day03_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ListSet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VariablePara" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SetSet.VariablePara" />
       <module name="day03_code" />
@@ -186,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoMain (2)" />
+        <item itemvalue="Application.DemoMain (1)" />
         <item itemvalue="Application.VariablePara" />
         <item itemvalue="Application.DemoMain" />
         <item itemvalue="Application.HashCode" />
-        <item itemvalue="Application.HashSetUsages" />
-        <item itemvalue="Application.LinkedListSetUsages" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +232,7 @@
       <workItem from="1586488492556" duration="19507000" />
       <workItem from="1586586237993" duration="1868000" />
       <workItem from="1586667545572" duration="21081000" />
+      <workItem from="1586739363579" duration="8582000" />
     </task>
     <servers />
   </component>
