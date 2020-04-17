@@ -11,7 +11,7 @@ Map集合的第一种遍历方式：通过键找值的方式
 3.通过Map集合中的方法get(key)获取所有value
 
  */
-package MapSet.MapInterfaceCommonMethod;
+package MapSet.MapSetCommonMethod;
 
 import java.util.HashMap;
 import java.util.Iterator;

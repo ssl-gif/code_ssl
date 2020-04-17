@@ -19,7 +19,7 @@ package CollectionSet;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class CollectionSetMethod {
+public class CollectionSetCommonMethod {
     public static void main(String[] args) {
 
         // 使用多态的方式创建集合对象

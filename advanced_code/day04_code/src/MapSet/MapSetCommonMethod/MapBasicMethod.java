@@ -1,6 +1,6 @@
 
 // Map接口中基本的抽象方法的使用
-package MapSet.MapInterfaceCommonMethod;
+package MapSet.MapSetCommonMethod;
 
 import java.util.HashMap;
 import java.util.Map;

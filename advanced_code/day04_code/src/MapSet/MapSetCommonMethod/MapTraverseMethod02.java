@@ -14,7 +14,7 @@ Map集合遍历的第二种方式：使用Entry对象遍历
 3.使用Entry对象中的方法getKey()和getValue()获取键与值
 
  */
-package MapSet.MapInterfaceCommonMethod;
+package MapSet.MapSetCommonMethod;
 
 import java.util.HashMap;
 import java.util.Iterator;

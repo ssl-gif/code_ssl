@@ -14,7 +14,7 @@ public StringBuilder append(...) ：添加"任意类型数据的字符串形�
 
 package StringBuilderClass;
 
-public class StringBuilderClass {
+public class StringBuilderClassUsages {
     public static void main(String[] args) {
 
         // 空参构造方法

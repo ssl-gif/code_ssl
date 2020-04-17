@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Practice {
+public class DateAndTimeClassPractice {
     public static void main(String[] args) throws ParseException {
 
         Scanner sc = new Scanner(System.in);
