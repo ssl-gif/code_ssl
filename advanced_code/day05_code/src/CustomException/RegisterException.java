@@ -17,7 +17,6 @@
         继承RuntimeException：那么自定义的异常类就是一个运行期异常
 
  */
-
 package CustomException;
 
 public class RegisterException extends Exception {
