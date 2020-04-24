@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day06_code/src/ThreadState/TimedWaitingState/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06_code/src/ThreadState/TimedWaitingState/RunnableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day06_code/src/ThreadState/WaitingState/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06_code/src/ThreadState/WaitingState/DemoMain02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_code/src/ThreadPool/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_code/src/ThreadPool/RunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_code/src/WaitAndNotify/BaoZi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_code/src/WaitAndNotify/BaoZiPu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_code/src/WaitAndNotify/ChiHuo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_code/src/WaitAndNotify/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exut" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06_code/src/ThreadSafety/ThreadSafetyIssues/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/ThreadSafety/ThreadSafetyIssues/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06_code/src/ThreadSafety/ThreadSafetyIssuesSolutions/SynchronizedCodeBlock/RunnableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/ThreadSafety/ThreadSafetyIssuesSolutions/SynchronizedCodeBlock/RunnableImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06_code/src/ThreadState/TimedWaitingState/RunnableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/ThreadState/TimedWaitingState/RunnableImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06_code/src/ThreadState/WaitingState/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/ThreadState/WaitingState/DemoMain01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day06_code/ThreadState/TimedWaitingState/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day06_code/ThreadState/TimedWaitingState/DemoMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day06_code/ThreadState/TimedWaitingState/RunnableImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day06_code/ThreadState/TimedWaitingState/RunnableImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day06_code/ThreadState/WaitingState/WaitingTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day06_code/ThreadState/WaitingState/WaitingTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day06_code/ThreadState/WaitingState/WaitingTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,11 +91,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ThreadState.WaitingState" />
       <recent name="ThreadState" />
       <recent name="Thread.CreateThread_RunnableInterface" />
       <recent name="Thread.ThreadCommonMethod" />
       <recent name="Exception.ExceptionAttentions" />
-      <recent name="HashMapSet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code_ssl\advanced_code\day06_code\src\ThreadState\BlockedState" />
@@ -104,20 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoMain (2)">
-    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadState.BlockedState.DemoMain" />
-      <module name="day06_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThreadState.BlockedState.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DemoMain (4)">
     <configuration name="DemoMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadState.TimedWaitingState.DemoMain" />
       <module name="day06_code" />
@@ -132,11 +132,11 @@
       </method>
     </configuration>
     <configuration name="DemoMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadSafety.ThreadSafetyIssuesSolutions.SynchronizedMethod.DemoMain" />
-      <module name="day06_code" />
+      <option name="MAIN_CLASS_NAME" value="WaitAndNotify.DemoMain" />
+      <module name="day07_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadSafety.ThreadSafetyIssuesSolutions.SynchronizedMethod.*" />
+          <option name="PATTERN" value="WaitAndNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadSafety.ThreadSafetyIssuesSolutions.Lock.DemoMain" />
-      <module name="day06_code" />
+    <configuration name="DemoMain (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadPool.DemoMain" />
+      <module name="day07_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadSafety.ThreadSafetyIssuesSolutions.Lock.*" />
+          <option name="PATTERN" value="ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadState.WaitingState.DemoMain" />
+    <configuration name="DemoMain01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadState.WaitingState.DemoMain01" />
       <module name="day06_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadState.TimedWaitingState.*" />
+          <option name="PATTERN" value="ThreadState.WaitingState.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,13 +183,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadState.WaitingState.Test" />
+      <module name="day06_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThreadState.WaitingState.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoMain (2)" />
-        <item itemvalue="Application.DemoMain (1)" />
-        <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.DemoMain" />
+        <item itemvalue="Application.DemoMain (4)" />
         <item itemvalue="Application.DemoMain (3)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DemoMain01" />
+        <item itemvalue="Application.DemoMain (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +257,12 @@
       <workItem from="1587430959675" duration="2934000" />
       <workItem from="1587479695150" duration="3947000" />
       <workItem from="1587516715634" duration="8901000" />
+      <workItem from="1587534518091" duration="262000" />
+      <workItem from="1587537239580" duration="2832000" />
+      <workItem from="1587620535155" duration="606000" />
+      <workItem from="1587622726564" duration="10721000" />
+      <workItem from="1587652826484" duration="2647000" />
+      <workItem from="1587699122103" duration="4201000" />
     </task>
     <servers />
   </component>

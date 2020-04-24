@@ -19,7 +19,8 @@
 
 (1).同步代码块中的锁对象，可以使用任意的对象
 
-(2).但是必须保证多个线程使用的锁对象是同一个，不然无法实现同步机制。例如：将 Object obj = new Object();放在run()方法内部
+(2).但是必须保证多个线程使用的锁对象是同一个，不然无法实现同步机制。例如：将 Object obj = new Object();
+放在run()方法内部，则无法保证线程之间的数据同步。
 
 (3).程序频繁的判断、获取、释放锁，程序的效率会降低
 
@@ -31,7 +32,7 @@ public class RunnableImpl implements Runnable {
     // 定义一个多线程共享的票源
     private int ticket = 100;
 
-    //创建一个锁对象
+    // 创建一个锁对象
     Object obj = new Object();
 
     // 设置卖票的线程任务
