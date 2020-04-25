@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day06_code/src/Thread/CreateThread_AnonymousInnerClass/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day06_code/src/Thread/CreateThread_RunnableInterface/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day06_code/src/Thread/CreateThread_RunnableInterface/RunnableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day06_code/src/Thread/ThreadCommonMethod/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day06_code/src/Thread/ThreadCommonMethod/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day05_code/src/MultiThread/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/day05_code/src/Thread/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day05_code/src/MultiThread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/day05_code/src/Thread/MyThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -270,6 +262,7 @@
       <workItem from="1586757361764" duration="73000" />
       <workItem from="1586956015620" duration="72000" />
       <workItem from="1587302622050" duration="109000" />
+      <workItem from="1587783863788" duration="36000" />
     </task>
     <servers />
   </component>

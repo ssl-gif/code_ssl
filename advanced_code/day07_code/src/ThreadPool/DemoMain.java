@@ -8,7 +8,7 @@
             static ExecutorService newFixedThreadPool(int nThreads)：创建一个可重用固定线程数的线程池
 
     返回值是 java.util.concurrent.ExecutorService 接口的实现类对象，该接口是线程池接口，即该接口的每一个实现类对象
-都是一个线程池。
+都是一个线程池。那么上述方法返回得就是一个线程池对象。
 
 第二步：从线程池中获取线程，执行线程任务
 
@@ -19,6 +19,7 @@
     使用 shutdown() 方法来销毁一个线程池，线程池被销毁后，其中的线程不可再使用。
 
  */
+
 package ThreadPool;
 
 import java.util.concurrent.ExecutorService;
