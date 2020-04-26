@@ -2,24 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day07_code/src/LambdaExpression/Pratice01/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07_code/src/LambdaExpression/Pratice01/CookImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07_code/src/LambdaExpression/Pratice01/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07_code/src/LambdaExpression/Pratice02/ComparatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07_code/src/LambdaExpression/Pratice02/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07_code/src/LambdaExpression/Pratice02/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07_code/src/LambdaExpression/Pratice03/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07_code/src/LambdaExpression/Pratice03/CalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day07_code/src/LambdaExpression/Pratice03/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/day08_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/ComprehensiveCase/FileFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/ComprehensiveCase/FileFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/ComprehensiveCase/FileSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/FileClass/CommonMemberMethod/CreatAndDeleteFunctionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/FileClass/CommonMemberMethod/JudgmentFunctionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/FileClass/CommonMemberMethod/ObtainFunctionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/FileClass/CommonMemberMethod/TraverseDirectoryFunctionMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/FileClass/ConstructorMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/FileClass/FourStaticMemberVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/Recursive/RecursiveFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/Recursive/RecursivePrintDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day08_code/src/Recursive/RecursiveSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07_code/src/ThreadPool/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/ThreadPool/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -85,11 +91,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Recursive" />
+      <recent name="FileClass.CommomMemberMethod" />
       <recent name="ThreadState.WaitingState" />
       <recent name="ThreadState" />
       <recent name="Thread.CreateThread_RunnableInterface" />
-      <recent name="Thread.ThreadCommonMethod" />
-      <recent name="Exception.ExceptionAttentions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code_ssl\advanced_code\day07_code\src\LambdaExpression" />
@@ -111,13 +117,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoMain">
-    <configuration name="DemoMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WaitAndNotify.DemoMain" />
-      <module name="day07_code" />
+  <component name="RunManager" selected="Application.FileFilter">
+    <configuration name="FileFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComprehensiveCase.FileFilter" />
+      <module name="day08_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WaitAndNotify.*" />
+          <option name="PATTERN" value="ComprehensiveCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadPool.DemoMain" />
-      <module name="day07_code" />
+    <configuration name="FileSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComprehensiveCase.FileSearch" />
+      <module name="day08_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadPool.*" />
+          <option name="PATTERN" value="ComprehensiveCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExpression.Pratice02.DemoMain" />
-      <module name="day07_code" />
+    <configuration name="JudgmentFunctionMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileClass.CommonMemberMethod.JudgmentFunctionMethod" />
+      <module name="day08_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LambdaExpression.Pratice02.*" />
+          <option name="PATTERN" value="FileClass.CommonMemberMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadState.WaitingState.Test" />
-      <module name="day06_code" />
+    <configuration name="RecursivePrintDirectory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursive.RecursivePrintDirectory" />
+      <module name="day08_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadState.WaitingState.*" />
+          <option name="PATTERN" value="Recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExpression.Test" />
-      <module name="day07_code" />
+    <configuration name="TraverseDirectoryFunctionMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileClass.CommonMemberMethod.TraverseDirectoryFunctionMethod" />
+      <module name="day08_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LambdaExpression.LambdaExpressionUsages.*" />
+          <option name="PATTERN" value="FileClass.CommonMemberMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.DemoMain (4)" />
-        <item itemvalue="Application.DemoMain (3)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.FileFilter" />
+        <item itemvalue="Application.RecursivePrintDirectory" />
+        <item itemvalue="Application.FileSearch" />
+        <item itemvalue="Application.TraverseDirectoryFunctionMethod" />
+        <item itemvalue="Application.JudgmentFunctionMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +253,9 @@
       <workItem from="1587712651684" duration="144000" />
       <workItem from="1587780987119" duration="3076000" />
       <workItem from="1587793061035" duration="9379000" />
+      <workItem from="1587825145456" duration="4708000" />
+      <workItem from="1587862473364" duration="8681000" />
+      <workItem from="1587882461662" duration="9596000" />
     </task>
     <servers />
   </component>
@@ -265,5 +274,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/advanced_code$ObtainFunctionMethod.ic" NAME="ObtainFunctionMethod Coverage Results" MODIFIED="1587863122757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>FileClass.CommomMemberMethod.*</FILTER>
+    </SUITE>
   </component>
 </project>
