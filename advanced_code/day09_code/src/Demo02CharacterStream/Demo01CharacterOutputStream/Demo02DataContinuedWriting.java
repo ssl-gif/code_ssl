@@ -17,31 +17,24 @@ windows：\r\n
 linux：/n
 mac：/r
 
-由于write()方法只能接收字节数组、int类型的整数，所以换行符号也要先转换成字节数组再写入
+由于write()方法可以接收字符串，所以直接写入字符串"\r\n"即可
 
  */
 
-package CharacterStream.CharacterOutputStream;
+package Demo02CharacterStream.Demo01CharacterOutputStream;
 
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class DataContinuedWriting {
+public class Demo02DataContinuedWriting {
     public static void main(String[] args) throws IOException {
 
-        FileWriter fw = new FileWriter("09_IOAndProperties\\f.txt");
-        char[] cs = {'a','b','c','d','e'};
-        //void write(char[] cbuf)写入字符数组。
-        fw.write(cs);//abcde
+        FileWriter fw = new FileWriter("day09_code\\a.txt", true);
 
-        //void write(char[] cbuf, int off, int len)写入字符数组的某一部分,off数组的开始索引,len写的字符个数。
-        fw.write(cs,1,3);//bcd
-
-        //void write(String str)写入字符串。
-        fw.write("传智播客");//传智播客
-
-        //void write(String str, int off, int len) 写入字符串的某一部分,off字符串的开始索引,len写的字符个数。
-        fw.write("黑马程序员",2,3);//程序员
+        for (int i = 0; i < 10; i++) {
+            fw.write("你好");
+            fw.write("\r\n");
+        }
 
         fw.close();
 

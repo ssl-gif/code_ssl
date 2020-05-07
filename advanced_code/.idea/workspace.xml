@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteInputStream/ByteStreamPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteInputStream/FileInputStreamClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteOutputStream/DataContinuedWriting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteOutputStream/FileOutputStreamClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/CharacterStream/CharacterOutputStream/DataContinuedWriting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/CharacterStream/CharacterOutputStream/FileWriterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/CharacterStream/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo01CharacterOutputStream/Demo01FileWriterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo02CharacterInputStream/Demo01FileReaderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo03IOExceptionHandle/Demo01JDK7IOExceptionHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo03IOExceptionHandle/Demo02JDK9IOExceptionHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo04AttributeSet/Demo01_PropertiesClassMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo04AttributeSet/Demo02_PropertiesSetAndIOStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteInputStream/ByteStreamPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo02ByteInputStream/Demo02ByteStreamPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteInputStream/FileInputStreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo02ByteInputStream/Demo01FileInputStreamClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteOutputStream/DataContinuedWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo01ByteOutputStream/Demo02DataContinuedWriting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteOutputStream/FileOutputStreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo01ByteOutputStream/Demo01FileOutputStreamClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/CharacterStream/CharacterOutputStream/DataContinuedWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo01CharacterOutputStream/Demo02DataContinuedWriting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/CharacterStream/CharacterOutputStream/FileWriterClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/CharacterStream/DemoMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day09_code/ByteStream/ByteInputStream/ByteStreamPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day09_code/ByteStream/ByteInputStream/ByteStreamPractice.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,11 +94,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AttributeSet" />
+      <recent name="CharacterStream.CharacterInputStream" />
       <recent name="Recursive" />
       <recent name="FileClass.CommomMemberMethod" />
       <recent name="ThreadState.WaitingState" />
-      <recent name="ThreadState" />
-      <recent name="Thread.CreateThread_RunnableInterface" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code_ssl\advanced_code\day09_code\src\CharacterStream\CharacterOutputStream" />
@@ -113,13 +120,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ByteStreamPractice">
-    <configuration name="ByteStreamPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ByteStream.ByteInputStream.ByteStreamPractice" />
+  <component name="RunManager" selected="Application.Demo02_PropertiesSetAndIOStream">
+    <configuration name="Demo01FileInputStreamClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo01ByteStream.Demo02ByteInputStream.Demo01FileInputStreamClass" />
       <module name="day09_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ByteStream.ByteInputStream.*" />
+          <option name="PATTERN" value="Demo01ByteStream.Demo02ByteInputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataContinuedWriting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ByteStream.ByteOutputStream.DataContinuedWriting" />
+    <configuration name="Demo02ByteStreamPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo01ByteStream.Demo02ByteInputStream.Demo02ByteStreamPractice" />
       <module name="day09_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ByteStream.ByteOutputStream.*" />
+          <option name="PATTERN" value="Demo01ByteStream.Demo02ByteInputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComprehensiveCase.FileFilter" />
-      <module name="day08_code" />
+    <configuration name="Demo02DataContinuedWriting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo01ByteStream.Demo01ByteOutputStream.Demo02DataContinuedWriting" />
+      <module name="day09_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ComprehensiveCase.*" />
+          <option name="PATTERN" value="Demo01ByteStream.Demo01ByteOutputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputStreamClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ByteStream.ByteInputStream.FileInputStreamClass" />
+    <configuration name="Demo02_PropertiesSetAndIOStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo04AttributeSet.Demo02_PropertiesSetAndIOStream" />
       <module name="day09_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ByteStream.ByteInputStream.*" />
+          <option name="PATTERN" value="Demo04AttributeSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputStreamClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ByteStream.ByteOutputStream.FileOutputStreamClass" />
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOExceptionHandle.DemoMain" />
       <module name="day09_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ByteStream.ByteOutputStream.*" />
+          <option name="PATTERN" value="Demo03IOExceptionHandle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ByteStreamPractice" />
-        <item itemvalue="Application.FileInputStreamClass" />
-        <item itemvalue="Application.DataContinuedWriting" />
-        <item itemvalue="Application.FileOutputStreamClass" />
-        <item itemvalue="Application.FileFilter" />
+        <item itemvalue="Application.Demo02_PropertiesSetAndIOStream" />
+        <item itemvalue="Application.DemoMain" />
+        <item itemvalue="Application.Demo02ByteStreamPractice" />
+        <item itemvalue="Application.Demo01FileInputStreamClass" />
+        <item itemvalue="Application.Demo02DataContinuedWriting" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +270,8 @@
       <workItem from="1588737359454" duration="5511000" />
       <workItem from="1588755395466" duration="596000" />
       <workItem from="1588771787935" duration="2285000" />
+      <workItem from="1588813801699" duration="17011000" />
+      <workItem from="1588856915997" duration="8125000" />
     </task>
     <servers />
   </component>

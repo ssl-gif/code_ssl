@@ -15,12 +15,12 @@ FileInputStream类会覆盖重写其父类InputStream的所有抽象方法。
 并且"FileNotFoundException extends IOException"，所以在处理异常时，只需要 throws IOException、或 try...catch(IOException e)即可
 
  */
-package ByteStream.ByteInputStream;
+package Demo01ByteStream.Demo02ByteInputStream;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class FileInputStreamClass {
+public class Demo01FileInputStreamClass {
     public static void main(String[] args) {
     }
 
@@ -31,7 +31,7 @@ public class FileInputStreamClass {
         FileInputStream fis = new FileInputStream("day09_code\\a.txt");
 
         /*
-            调用read()方法就是通过文件字节输入流fis，读取a.txt文件的下一个字节并返回，若没有下一下字节则返回-1。
+            调用read()方法就是通过文件字节输入流fis，读取a.txt文件的下一个字节并返回，若没有下一个字节则返回-1。
         由于返回值为int类型，所以会将字节形式的数据转换成对应的int类型整数返回。
          */
         int len = fis.read();

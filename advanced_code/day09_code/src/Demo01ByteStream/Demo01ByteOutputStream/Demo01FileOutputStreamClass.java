@@ -16,13 +16,13 @@ FileOutputStream类会覆盖重写其父类OutputStream的所有抽象方法。
 
  */
 
-package ByteStream.ByteOutputStream;
+package Demo01ByteStream.Demo01ByteOutputStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class FileOutputStreamClass {
+public class Demo01FileOutputStreamClass {
     public static void main(String[] args) {
     }
 

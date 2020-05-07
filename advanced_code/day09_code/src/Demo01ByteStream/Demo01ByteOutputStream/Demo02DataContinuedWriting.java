@@ -21,12 +21,12 @@ mac：/r
 
  */
 
-package ByteStream.ByteOutputStream;
+package Demo01ByteStream.Demo01ByteOutputStream;
 
 import java.io.IOException;
 import java.io.FileOutputStream;
 
-public class DataContinuedWriting {
+public class Demo02DataContinuedWriting {
     public static void main(String[] args) throws IOException {
 
         FileOutputStream fos = new FileOutputStream("day09_code\\a.txt", true);

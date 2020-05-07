@@ -1,12 +1,12 @@
 
 // 字节流练习：图片文件复制
-package ByteStream.ByteInputStream;
+package Demo01ByteStream.Demo02ByteInputStream;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class ByteStreamPractice {
+public class Demo02ByteStreamPractice {
     public static void main(String[] args) throws IOException {
 
         // 创建一个字节输入流对象，构造方法中绑定要读取的数据源
