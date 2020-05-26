@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo01CharacterOutputStream/Demo01FileWriterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo02CharacterInputStream/Demo01FileReaderClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo03IOExceptionHandle/Demo01JDK7IOExceptionHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo03IOExceptionHandle/Demo02JDK9IOExceptionHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo04AttributeSet/Demo01_PropertiesClassMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo04AttributeSet/Demo02_PropertiesSetAndIOStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo01BufferStream/Demo01ByteBufferStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo01BufferStream/Demo02CharacterBufferStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo01BufferStream/Demo03Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo01BufferStream/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo02ConversionStream/Demo01OutputStreamWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo02ConversionStream/Demo02InputStreamReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo02ConversionStream/Demo03Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo03SerializedStream/Demo01ObjectOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo03SerializedStream/Demo02ObjectInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo03SerializedStream/Demo03Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo03SerializedStream/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteInputStream/ByteStreamPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo02ByteInputStream/Demo02ByteStreamPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteInputStream/FileInputStreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo02ByteInputStream/Demo01FileInputStreamClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteOutputStream/DataContinuedWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo01ByteOutputStream/Demo02DataContinuedWriting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/src/ByteStream/ByteOutputStream/FileOutputStreamClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo01ByteOutputStream/Demo01FileOutputStreamClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/src/CharacterStream/CharacterOutputStream/DataContinuedWriting.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo01CharacterOutputStream/Demo02DataContinuedWriting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/src/CharacterStream/CharacterOutputStream/FileWriterClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/src/CharacterStream/DemoMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day09_code/ByteStream/ByteInputStream/ByteStreamPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day09_code/ByteStream/ByteInputStream/ByteStreamPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo02ByteInputStream/Demo02ByteStreamPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo02ByteInputStream/Demo02ByteStreamPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo01CharacterOutputStream/Demo01FileWriterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo01CharacterOutputStream/Demo01FileWriterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_code/day08_code/src/StringClass/StringSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day08_code/src/StringClass/StringSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_code/out/production/day08_code/MathClass/MathClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/out/production/day08_code/MathClass/MathClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_code/out/production/day08_code/StringClass/StringEquals.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/out/production/day08_code/StringClass/StringEquals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_code/out/production/day08_code/StringClass/StringSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/out/production/day08_code/StringClass/StringSplit.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +45,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="advanced_code" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,13 +126,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo02_PropertiesSetAndIOStream">
-    <configuration name="Demo01FileInputStreamClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01ByteStream.Demo02ByteInputStream.Demo01FileInputStreamClass" />
-      <module name="day09_code" />
+  <component name="RunManager" selected="Application.Demo01ObjectOutputStream">
+    <configuration name="Demo01ObjectOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03SerializedStream.Demo01ObjectOutputStream" />
+      <module name="day10_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo01ByteStream.Demo02ByteInputStream.*" />
+          <option name="PATTERN" value="Demo03SerializedStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02DataContinuedWriting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01ByteStream.Demo01ByteOutputStream.Demo02DataContinuedWriting" />
+    <configuration name="Demo02_PropertiesSetAndIOStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo04AttributeSet.Demo02_PropertiesSetAndIOStream" />
       <module name="day09_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo01ByteStream.Demo01ByteOutputStream.*" />
+          <option name="PATTERN" value="Demo04AttributeSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02_PropertiesSetAndIOStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo04AttributeSet.Demo02_PropertiesSetAndIOStream" />
-      <module name="day09_code" />
+    <configuration name="Demo03Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo01BufferStream.Demo03Practice" />
+      <module name="day10_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo04AttributeSet.*" />
+          <option name="PATTERN" value="Demo01BufferStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,13 +192,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo02ConversionStream.DemoMain" />
+      <module name="day10_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02ConversionStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo01ObjectOutputStream" />
+        <item itemvalue="Application.Demo03Practice" />
         <item itemvalue="Application.Demo02_PropertiesSetAndIOStream" />
         <item itemvalue="Application.DemoMain" />
         <item itemvalue="Application.Demo02ByteStreamPractice" />
-        <item itemvalue="Application.Demo01FileInputStreamClass" />
-        <item itemvalue="Application.Demo02DataContinuedWriting" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +291,15 @@
       <workItem from="1588771787935" duration="2285000" />
       <workItem from="1588813801699" duration="17011000" />
       <workItem from="1588856915997" duration="8125000" />
+      <workItem from="1588992069840" duration="1874000" />
+      <workItem from="1589005201917" duration="2736000" />
+      <workItem from="1589034778232" duration="5830000" />
+      <workItem from="1589074418789" duration="2289000" />
+      <workItem from="1589076754892" duration="7529000" />
+      <workItem from="1589108649559" duration="2552000" />
+      <workItem from="1589168046096" duration="1610000" />
+      <workItem from="1589176325450" duration="3802000" />
+      <workItem from="1589207821475" duration="3411000" />
     </task>
     <servers />
   </component>

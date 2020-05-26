@@ -32,7 +32,7 @@ public class StringSplit {
 
         // 遇见英文句点就分割
         String str3 = "aaa.bbb.ccc";
-        String[] array3 = str3.split(",");
+        String[] array3 = str3.split("\\.");
         for (int i = 0; i < array3.length; i++) {
             System.out.println(array3[i]);
         }

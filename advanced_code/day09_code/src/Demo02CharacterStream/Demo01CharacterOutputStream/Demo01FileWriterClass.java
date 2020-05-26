@@ -34,8 +34,7 @@ public class Demo01FileWriterClass {
         // 调用write()方法将单个字符写入到内存缓冲区中
         fw.write(97);
 
-        // 调用flush()方法刷新内存缓冲区中的数据到文件中
-        fw.flush();
+        // fw.flush();  调用flush()方法刷新内存缓冲区中的数据到文件中，可直接使用close()方法
 
         // 调用close()方法关闭输出流释放系统资源，关闭输出流之前也会先刷新内存缓冲区中的数据到文件中
         fw.close();

@@ -15,7 +15,13 @@ public class Demo02ByteStreamPractice {
         // 创建一个字节输出流对象，构造方法中绑定要写入的目的地
         FileOutputStream fos = new FileOutputStream("day09_code\\test_copy.jpg");
 
-        // 循环读取字节并写入目的地，完成图片复制
+        // 法一：每次循环读取一个字节并写入目的地，完成图片复制
+        int b;
+        while ((b = fis.read()) != -1) {
+            fos.write(b);
+        }
+
+        // 法二：每次循环读取多个字节并写入目的地，完成图片复制
         byte[] bytes = new byte[1024];
         int length = 0;
         while ((length = fis.read(bytes)) != -1) {
