@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo01BufferStream/Demo01ByteBufferStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo01BufferStream/Demo02CharacterBufferStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo01BufferStream/Demo03Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo01BufferStream/in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo02ConversionStream/Demo01OutputStreamWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo02ConversionStream/Demo02InputStreamReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo02ConversionStream/Demo03Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo03SerializedStream/Demo01ObjectOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo03SerializedStream/Demo02ObjectInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo03SerializedStream/Demo03Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10_code/src/Demo03SerializedStream/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo02ByteInputStream/Demo02ByteStreamPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01ByteStream/Demo02ByteInputStream/Demo02ByteStreamPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo01CharacterOutputStream/Demo01FileWriterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo02CharacterStream/Demo01CharacterOutputStream/Demo01FileWriterClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day08_code/src/StringClass/StringSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day08_code/src/StringClass/StringSplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/out/production/day08_code/MathClass/MathClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/out/production/day08_code/MathClass/MathClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/out/production/day08_code/StringClass/StringEquals.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/out/production/day08_code/StringClass/StringEquals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/out/production/day08_code/StringClass/StringSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/out/production/day08_code/StringClass/StringSplit.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +37,7 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -82,11 +65,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="db2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day09_code/src/CharacterStream/CharacterOutputStream" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../basic_code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -300,6 +284,9 @@
       <workItem from="1589168046096" duration="1610000" />
       <workItem from="1589176325450" duration="3802000" />
       <workItem from="1589207821475" duration="3411000" />
+      <workItem from="1590744386617" duration="1796000" />
+      <workItem from="1590817773730" duration="425000" />
+      <workItem from="1590927238123" duration="289000" />
     </task>
     <servers />
   </component>
