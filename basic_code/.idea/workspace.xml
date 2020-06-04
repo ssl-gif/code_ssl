@@ -2,8 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../advanced_code/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/AbstractMethod/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo01AbstractMethod/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/AbstractMethod/InterfaceAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo01AbstractMethod/InterfaceAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/AbstractMethod/InterfaceAbstractImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo01AbstractMethod/InterfaceAbstractImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/Const/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo05Const/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/Const/InterfaceConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo05Const/InterfaceConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/DefaultMethod/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo02DefaultMethod/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/DefaultMethod/InterfaceDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo02DefaultMethod/InterfaceDefault.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/DefaultMethod/InterfaceDefaultImplA.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo02DefaultMethod/InterfaceDefaultImplA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/DefaultMethod/InterfaceDefaultImplB.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo02DefaultMethod/InterfaceDefaultImplB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/MultiExtends/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/MultiExtends/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/MultiExtends/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/MultiExtends/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/MultiExtends/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/MultiExtends/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/MultiExtends/CImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/MultiExtends/CImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/PrivateMethod/InterfacePrivateA.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo04PrivateMethod/InterfacePrivateA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/PrivateMethod/InterfacePrivateB.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo04PrivateMethod/InterfacePrivateB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/StaticMethod/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo03StaticMethod/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/StaticMethod/InterfaceStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo03StaticMethod/InterfaceStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Interface/StaticMethod/InterfaceStaticImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo01Interface/Demo03StaticMethod/InterfaceStaticImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo03InterfaceAndPolymorphicExample/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo03InterfaceAndPolymorphicExample/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/KeyBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo03InterfaceAndPolymorphicExample/KeyBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo03InterfaceAndPolymorphicExample/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/InterfaceAndPolymorphicExample/USB.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo03InterfaceAndPolymorphicExample/USB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo02BenefitsOfPolymorphic/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo02BenefitsOfPolymorphic/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo02BenefitsOfPolymorphic/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/BenefitsOfPolymorphic/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo02BenefitsOfPolymorphic/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo01PolymorphicUsages/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo01PolymorphicUsages/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo01PolymorphicUsages/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/PolymorphicUsages/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo01PolymorphicUsages/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo03ReferenceTypeConversion/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo03ReferenceTypeConversion/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo03ReferenceTypeConversion/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_code/src/Polymorphic/ReferenceTypeConversion/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/src/Demo02Polymorphic/Demo03ReferenceTypeConversion/Dog.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +97,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -269,6 +305,7 @@
       <workItem from="1589081830670" duration="33000" />
       <workItem from="1589081875197" duration="4000" />
       <workItem from="1590745618561" duration="867000" />
+      <workItem from="1591242393169" duration="1970000" />
     </task>
     <servers />
   </component>
