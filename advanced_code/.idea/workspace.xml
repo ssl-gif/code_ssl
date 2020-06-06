@@ -2,61 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo01FunctionalInterface/Demo02FunctionalInterfaceUsages/DemoFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo01FunctionalInterface/Demo02FunctionalInterfaceUsages/DemoFunctionalInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo01FunctionalInterface/Demo02FunctionalInterfaceUsages/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo02FunctionalProgram/Demo02LambdaAsMethod/Demo01LambdaAsMethodParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo02FunctionalProgram/Demo02LambdaAsMethod/Demo02LambdaAsMethodReturnValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo02Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/SupplierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo01ConsumerInterfaceUsages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02ConsumerInterfacePractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DemoMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/CollectionSet/CollectionSetCommonMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo01CollectionSet/Demo02CollectionSetCommonMethod/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/CollectionSetComprehensiveCase/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo04CollectionSetComprehensiveCase/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/BenefitsOfGeneric/BenefitsOfGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo02BenefitsOfGeneric/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericClass/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericClass/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericClass/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericClass/GenericClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericInterface/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericInterface/GenericInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl01.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericInterface/GenericInterfaceImpl01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericInterface/GenericInterfaceImpl02.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericInterface/GenericInterfaceImpl02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericMethod/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericUsages/GenericMethod/GenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericMethod/GenericMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericWildcard/GenericWildcard01.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo03GenericWildcard/DemoMain01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Generic/GenericWildcard/GenericWildcard02.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo03GenericWildcard/DemoMain02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Iterator/ForeachLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo02Iterator/Demo03EnhancedForLoop/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Iterator/IteratorInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo02Iterator/Demo01IteratorInterface/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketCode/NormalMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketCode/NormalMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketCode/RandomMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketCode/RandomMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketCode/RedPacketInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketCode/RedPacketInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketCode/RedPacketMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketCode/RedPacketMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketFrame/OpenMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketFrame/OpenMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketFrame/RedPacketFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketFrame/RedPacketFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/01_input.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketFrame/pictures/01_input.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/02_open_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketFrame/pictures/02_open_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/02_open_2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketFrame/pictures/02_open_2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/03_money_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketFrame/pictures/03_money_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ComprehensiveCase/RedPacketFrame/pictures/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo05ComprehensiveCase/RedPacketFrame/pictures/logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/FinalKeyWords/Student01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo01FinalKeyWords/Student01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/FinalKeyWords/Student02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo01FinalKeyWords/Student02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/InnerClass/AnonymousInnerClass/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo03InnerClass/Demo03AnonymousInnerClass/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/InnerClass/AnonymousInnerClass/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo03InnerClass/Demo03AnonymousInnerClass/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/InnerClass/AnonymousInnerClass/InterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo03InnerClass/Demo03AnonymousInnerClass/InterfaceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/InnerClass/LocalInnerClass/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo03InnerClass/Demo02LocalInnerClass/Outer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/InnerClass/MemberInnerClass/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo03InnerClass/Demo01MemberInnerClass/Body.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/InnerClass/MemberInnerClass/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo03InnerClass/Demo01MemberInnerClass/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/InnerClass/MemberInnerClass/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo03InnerClass/Demo01MemberInnerClass/Outer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ReferenceTypeUsageSummary/ClassAsMemberVariable/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo04ReferenceTypeUsageSummary/Demo01ClassAsMemberVariable/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ReferenceTypeUsageSummary/ClassAsMemberVariable/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo04ReferenceTypeUsageSummary/Demo01ClassAsMemberVariable/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ReferenceTypeUsageSummary/ClassAsMemberVariable/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo04ReferenceTypeUsageSummary/Demo01ClassAsMemberVariable/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMemberVariable/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo04ReferenceTypeUsageSummary/Demo02InterfaceAsMemberVariable/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMemberVariable/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo04ReferenceTypeUsageSummary/Demo02InterfaceAsMemberVariable/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMemberVariable/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo04ReferenceTypeUsageSummary/Demo02InterfaceAsMemberVariable/Skill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMemberVariable/SkillImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo04ReferenceTypeUsageSummary/Demo02InterfaceAsMemberVariable/SkillImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basic_code/day11_code/src/ReferenceTypeUsageSummary/InterfaceAsMethod/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/day11_code/src/Demo04ReferenceTypeUsageSummary/Demo03InterfaceAsMethod/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericInterface/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericInterface/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo02Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo02SupplierInterfacePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/SupplierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/SupplierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/DemoMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/DemoMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DemoMain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DemoMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DrawLinePanel.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,9 +50,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -138,11 +100,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Demo03CommonFunctionalInterface.Demo02ConsumerInterface" />
       <recent name="Demo03CommonFunctionalInterface.Demo04FunctionInterface" />
+      <recent name="Demo03CommonFunctionalInterface.Demo01SupplierInterface" />
       <recent name="Demo03CommonFunctionalInterface.Demo03PredicateInterface" />
       <recent name="Demo03CommonFunctionalInterface.Demo01SupplierInterface.Demo02SupplierInterfacePractice" />
-      <recent name="Demo03CommonFunctionalInterface.Demo01SupplierInterface" />
-      <recent name="Demo02ComprehensiveCase.Demo01FileUploadCase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code_ssl\advanced_code\day12_code\src\Demo03CommonFunctionalInterface\Demo01SupplierInterface" />
@@ -164,7 +126,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoMain">
+  <component name="RunManager" selected="Application.Demo01ConsumerInterfaceUsages">
+    <configuration name="Demo01ConsumerInterfaceUsages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo01ConsumerInterfaceUsages" />
+      <module name="day12_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo01SupplierInterfaceUsages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo01SupplierInterface.Demo01SupplierInterfaceUsages" />
       <module name="day12_code" />
@@ -178,25 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.DemoLambda" />
+    <configuration name="Demo02AndThen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Test.Demo02AndThen" />
       <module name="day12_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo03Generic.Demo01GenericUsages.GenericClass.DemoMain" />
-      <module name="day02_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Demo03Generic.Demo01GenericUsages.GenericClass.*" />
+          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,26 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01TCPCommunicationProgram.TCPClient" />
-      <module name="day11_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Demo01TCPCommunicationProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo01ConsumerInterfaceUsages" />
+        <item itemvalue="Application.Demo02AndThen" />
         <item itemvalue="Application.DemoMain" />
         <item itemvalue="Application.Demo01SupplierInterfaceUsages" />
         <item itemvalue="Application.DemoMain (2)" />
-        <item itemvalue="Application.DemoMain (1)" />
-        <item itemvalue="Application.DemoLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -353,6 +302,7 @@
       <workItem from="1591238087633" duration="4956000" />
       <workItem from="1591320951552" duration="4517000" />
       <workItem from="1591326128617" duration="23521000" />
+      <workItem from="1591410957566" duration="13528000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,7 @@ package Demo03CommonFunctionalInterface.Demo01SupplierInterface;
 
 import java.util.function.Supplier;
 
-public class Demo02Practice {
+public class Demo02SupplierInterfacePractice {
     public static void main(String[] args) {
 
         int[] array = {100, 0, -50, 880, 99, 33, -30};
