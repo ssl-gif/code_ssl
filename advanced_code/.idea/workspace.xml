@@ -2,23 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a1abc-4988-4078-a023-89bdbf0bd134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo01ConsumerInterfaceUsages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02ConsumerInterfacePractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo01ConsumerInterfaceLambdaUsages/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02ConsumerInterfaceDefaultMethod/ConsumerImpl01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02ConsumerInterfaceDefaultMethod/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo01PredicateInterfaceLambdaUsages/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo01PredicateInterfaceLambdaUsages/PredicateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo02PredicateInterfaceDefaultMethod/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo02PredicateInterfaceDefaultMethod/PredicateImpl01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo02PredicateInterfaceDefaultMethod/PredicateImpl02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo01FunctionInterfaceLambdaUsages/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo01FunctionInterfaceLambdaUsages/FunctionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo02FunctionInterfaceDefaultMethod/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo02FunctionInterfaceDefaultMethod/FunctionImpl01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo02FunctionInterfaceDefaultMethod/FunctionImpl02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo03FunctionInterfacePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericInterface/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo03Generic/Demo01GenericUsages/GenericInterface/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo02Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo02SupplierInterfacePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/SupplierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/SupplierImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/DemoMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/DemoMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DemoMain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl01.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo01ConsumerInterfaceLambdaUsages/ConsumerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl02.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02ConsumerInterfaceDefaultMethod/ConsumerImpl02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo/Demo01Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo/Demo02AndThen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo/Demo03Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo01ConsumerInterfaceUsages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02ConsumerInterfacePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo03ConsumerInterfacePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo/Demo01Predicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo/Demo02Predicate_and.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo/Demo03Predicate_or.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo/Demo04Predicate_negate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo/Demo05Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/Demo03PredicateInterfacePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo03PredicateInterface/DemoMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo/Demo01Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo/Demo02Function_andThen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo/Demo03Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/Demo/Demo03Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DemoMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo02Practice$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo02Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/SupplierImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/SupplierImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/DemoMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Test/Demo01Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Test/Demo02AndThen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Test/Demo03Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo03PredicateInterface/DemoMain.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DemoMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day12_code/Demo03CommonFunctionalInterface/Demo04FunctionInterface/DrawLinePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basic_code/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +82,8 @@
       <list>
         <option value="HTML File" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,7 +116,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day12_code/src/Demo03CommonFunctionalInterface/Demo04FunctionInterface" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,18 +131,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Demo03CommonFunctionalInterface.Demo04FunctionInterface.Demo02FunctionInterfaceDefaultMethod" />
+      <recent name="Demo03CommonFunctionalInterface.Demo03PredicateInterface.Demo02PredicateInterfaceDefaultMethod" />
+      <recent name="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo02AbstractMethodandThen" />
+      <recent name="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo02" />
       <recent name="Demo03CommonFunctionalInterface.Demo02ConsumerInterface" />
-      <recent name="Demo03CommonFunctionalInterface.Demo04FunctionInterface" />
-      <recent name="Demo03CommonFunctionalInterface.Demo01SupplierInterface" />
-      <recent name="Demo03CommonFunctionalInterface.Demo03PredicateInterface" />
-      <recent name="Demo03CommonFunctionalInterface.Demo01SupplierInterface.Demo02SupplierInterfacePractice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code_ssl\advanced_code\day12_code\src\Demo03CommonFunctionalInterface\Demo04FunctionInterface" />
       <recent name="E:\code_ssl\advanced_code\day12_code\src\Demo03CommonFunctionalInterface\Demo01SupplierInterface" />
       <recent name="E:\code_ssl\advanced_code\day11_code\src\Demo02ComprehensiveCase\test" />
       <recent name="E:\code_ssl\advanced_code\day09_code\src\CharacterStream\CharacterOutputStream" />
       <recent name="E:\code_ssl\advanced_code\day07_code\src\LambdaExpression" />
-      <recent name="E:\code_ssl\advanced_code\day06_code\src\ThreadState\BlockedState" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -126,22 +157,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo01ConsumerInterfaceUsages">
-    <configuration name="Demo01ConsumerInterfaceUsages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo01ConsumerInterfaceUsages" />
-      <module name="day12_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo01SupplierInterfaceUsages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo01SupplierInterface.Demo01SupplierInterfaceUsages" />
+  <component name="RunManager" selected="Application.DemoMain">
+    <configuration name="Demo01SupplierInterfaceLambdaUsages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo01SupplierInterface.Demo01SupplierInterfaceLambdaUsages" />
       <module name="day12_code" />
       <extension name="coverage">
         <pattern>
@@ -158,7 +176,7 @@
       <module name="day12_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.*" />
+          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo01ConsumerInterfaceLambdaUsages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo03Generic.Demo01GenericUsages.GenericInterface.DemoMain" />
-      <module name="day02_code" />
+    <configuration name="Demo03ConsumerInterfacePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo03ConsumerInterfacePractice" />
+      <module name="day12_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo03Generic.Demo01GenericUsages.GenericInterface.*" />
+          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,7 +202,46 @@
       <module name="day12_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo04FunctionInterface.*" />
+          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo04FunctionInterface.Demo01FunctionInterfaceLambdaUsages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo02ConsumerInterfaceDefaultMethod.DemoMain" />
+      <module name="day12_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo02ConsumerInterfaceDefaultMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo02.DemoMain" />
+      <module name="day12_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo01ConsumerInterfaceLambdaUsages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo01ConsumerInterfaceLambdaUsages.DemoMain" />
+      <module name="day12_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo03CommonFunctionalInterface.Demo02ConsumerInterface.Demo01ConsumerInterfaceLambdaUsages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +251,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo01ConsumerInterfaceUsages" />
-        <item itemvalue="Application.Demo02AndThen" />
         <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.Demo01SupplierInterfaceUsages" />
-        <item itemvalue="Application.DemoMain (2)" />
+        <item itemvalue="Application.Demo03ConsumerInterfacePractice" />
+        <item itemvalue="Application.Demo01SupplierInterfaceLambdaUsages" />
       </list>
     </recent_temporary>
   </component>
@@ -303,6 +358,11 @@
       <workItem from="1591320951552" duration="4517000" />
       <workItem from="1591326128617" duration="23521000" />
       <workItem from="1591410957566" duration="13528000" />
+      <workItem from="1591459032070" duration="254000" />
+      <workItem from="1591504450741" duration="2448000" />
+      <workItem from="1591511847630" duration="6304000" />
+      <workItem from="1591576729717" duration="14491000" />
+      <workItem from="1591614335422" duration="2532000" />
     </task>
     <servers />
   </component>
