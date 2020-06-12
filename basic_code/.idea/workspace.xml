@@ -2,29 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo01ConsumerInterfaceLambdaUsages/DemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02AbstractMethodandThen/ConsumerImpl01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02AbstractMethodandThen/ConsumerImpl02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02AbstractMethodandThen/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo01GetStream/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo02CommonMethod/Demo01ForEachMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo02CommonMethod/Demo02FilterMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo02CommonMethod/Demo03MapMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo02CommonMethod/Demo04CountMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo02CommonMethod/Demo05LimitMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo02CommonMethod/Demo06SkipMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo02CommonMethod/Demo07ConcatMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo03Practice/DemoMain01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo03Practice/DemoMain02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo01Stream/Demo03Practice/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo02MethodReference/Demo01ObjectReferenceMemberMethod/DemoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo02MethodReference/Demo01ObjectReferenceMemberMethod/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo02MethodReference/Demo01ObjectReferenceMemberMethod/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo02MethodReference/Demo02ClassReferenceStaticMethod/Calcable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo02MethodReference/Demo02ClassReferenceStaticMethod/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo02MethodReference/Demo03SuperAndThisReferenceMethod/DemoFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo02MethodReference/Demo03SuperAndThisReferenceMethod/Fu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../advanced_code/day13_code/src/Demo02MethodReference/Demo03SuperAndThisReferenceMethod/Zi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceUsages.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo01ConsumerInterfaceLambdaUsages/ConsumerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo/Demo01Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo/Demo02AndThen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo/Demo03Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo01ConsumerInterfaceUsages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo02ConsumerInterfacePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/day12_code/src/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Demo03ConsumerInterfacePractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages.class" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo01SupplierInterfaceLambdaUsages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo02Practice$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo01SupplierInterface/Demo02Practice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/ConsumerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/DemoMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Test/Demo01Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Test/Demo02AndThen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advanced_code/out/production/day12_code/Demo03CommonFunctionalInterface/Demo02ConsumerInterface/Test/Demo03Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../advanced_code/day03_code/src/SetSet/VariablePara/VariablePara.java" beforeDir="false" afterPath="$PROJECT_DIR$/../advanced_code/day03_code/src/SetSet/VariablePara/VariablePara.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -292,6 +291,10 @@
       <workItem from="1591322748755" duration="20000" />
       <workItem from="1591324722430" duration="183000" />
       <workItem from="1591578806534" duration="26000" />
+      <workItem from="1591789299027" duration="9000" />
+      <workItem from="1591878206282" duration="168000" />
+      <workItem from="1591880546318" duration="9000" />
+      <workItem from="1591881886428" duration="607000" />
     </task>
     <servers />
   </component>
