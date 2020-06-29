@@ -1,0 +1,96 @@
+<!--
+
+基本属性：
+
+(1).文本属性：
+
+    font-size：文本字体大小
+    color：文本颜色
+    text-align：文本对其方式
+    line-height：文本行高
+    ...
+
+(2).边框属性 border：
+
+    border-width：设置边框宽度
+    border-style：设置边框样式
+    border-color：设置边框颜色
+    ...
+
+    在实际应用中，可以单独使用上述边框属性，也可以用border属性将上面所有的设置项放在一起。放在一起使用时：
+各个设置项的顺序没有要求、各个设置项使用空格隔开、有的设置项不写也可以，会使用默认值。
+
+(3).背景属性 background：
+
+    background-color：设置背景颜色
+    background-image：设置背景图片地址
+    background-repeat：设置背景图片是否重复平铺
+    background-position：设置背景图片的位置
+    background-attachment：设置背景图片是固定还是随着页面滚动条滚动
+    ...
+
+    在实际应用中，可以单独使用上述背景属性，也可以用background属性将上面所有的设置项放在一起。放在一起使用时：
+各个设置项的顺序没有要求、各个设置项使用空格隔开、有的设置项不写也可以，会使用默认值。
+
+(4).尺寸属性：
+
+    width：宽度
+    height：高度
+    ...
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>基本属性</title>
+
+        <style>
+
+            /*文本属性*/
+            .div1 {
+                font-size: 30px;
+                color: #FF0000;
+                text-align: center;
+                line-height: 200px;
+            }
+
+            /*边框属性*/
+            .div2 {
+                border-width: 3px; /*边框宽度为1像素*/
+                border-style: solid; /*边框样式为实线*/
+                border-color: red; /*边框颜色为红色*/
+
+                border: 3px solid red; /*放在一起使用*/
+            }
+
+            /*背景属性*/
+            .div3 {
+                background-image: url("images/logo.jpg"); /*背景图片的地址*/
+                background-repeat: no-repeat; /*背景图片不重复平铺(repeat和no-repeat)*/
+                background-position: center; /*背景图片的位置*/
+
+                background: url("images/logo.jpg") no-repeat center; /*放在一起使用*/
+            }
+
+            /*尺寸属性*/
+            .div4 {
+                height: 200px;
+                width: 200px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="div1">迪丽热巴</div>
+
+        <div class="div2">古力娜扎</div>
+
+        <div class="div3">玛尔扎哈</div>
+
+        <div class="div4">乌拉乌拉</div>
+
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>外部样式</title>
+
+        <!--
+        1.定义css资源文件(一般将所有的css文件都放在css目录下)
+        2.在head标签内，定义link标签，引入外部的css资源文件
+        -->
+        <link rel="stylesheet" href="..\css\a.css">
+
+    </head>
+    <body>
+
+        <div> Hello CSS! </div>
+        <p> Hello CSS! </p>
+
+    </body>
+</html>
+
+<!--
+#.注意事项：
+
+(1).内联样式还可以使用以下写法：在head标签内，定义style标签，导入外部的css资源文件(这种方式不常用)
+
+                            <style>
+                                @import "../css/a.css";
+                            </style>
+
+(2).内联样式只能作用于一个标签、内部样式可以作用于整个html文件、内联样式可以作用于所有html文件(在引入资源的情况下)，
+所以这三种方式，css的作用范围越来越大。常用的是：内部样式、外部样式
+
+-->

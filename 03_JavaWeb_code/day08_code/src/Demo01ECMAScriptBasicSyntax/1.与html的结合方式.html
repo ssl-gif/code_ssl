@@ -1,0 +1,35 @@
+<!--
+
+(1).内部方式：定义<script>标签，标签体内容就是js代码
+
+(2).外部方式：定义<script>标签，通过src属性引入外部的js文件(一般将所有的js文件都放在js目录下)
+
+#.注意：
+a.js代码的注释方式：与java一样
+b.在同一个html页面内，<script>标签可以定义多个。
+c.<script>标签可以定义在html页面的任何地方，但是定义的位置会影响执行顺序：
+    在下述代码中，<script>标签定义在<input>标签的前面，所以会先执行<script>标签中的js代码，再执行后续的
+代码。并且由于alert语句的阻塞作用，所以不点击弹出对话框的确定按钮，body标签中的文本输入框不会显示在页面中。
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>与html的结合方式</title>
+    </head>
+
+    <!--(1).内部方式-->
+    <script>
+        alert("HelloWorld!"); // alert语句可以弹出一个对话框。alert语句具有阻塞的作用，即：不点击对话框的确定按钮，代码不会向下执行
+    </script>
+
+    <!--(2).外部方式-->
+    <script src="./js/a.js"></script>
+
+    <body>
+
+        <input type="text">
+
+    </body>
+</html>
