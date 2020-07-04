@@ -1,0 +1,53 @@
+<!--
+
+    History历史记录对象：History对象不需要创建，是使用Window窗口对象获取出来的，即：window.history，
+其中window引用可以省略。
+
+1.History对象中的方法：
+    back()：加载history列表中的前一个URL，即：后退
+    forward()：加载history列表中的下一个URL，即：前进
+    go(参数)：加载history列表中的某个具体页面。参数为正数：前进几个历史记录；参数为负数：后退几个历史记录
+    ...
+
+2.History对象中的属性：
+    length属性：返回当前窗口历史列表中的URL数量
+    ...
+
+#.注意：获取到的history历史记录对象，不是浏览器中的历史记录列表，而是当前窗口的历史记录列表！
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Window窗口对象</title>
+    </head>
+    <body>
+
+        <!--1.History对象中的方法：-->
+        <input id="btn01" type="button" value="后退">
+        <input id="btn02" type="button" value="前进">
+        <script>
+
+            var btn01 = document.getElementById("btn01");
+            btn01.onclick = function () {
+                history.back();    // 可使用history.go(-1);来代替
+            }
+
+            var btn02 = document.getElementById("btn02");
+            btn02.onclick = function () {
+                history.forward(); // 可使用history.go(1);来代替
+            }
+
+        </script>
+
+        <!--2.History对象中的属性：-->
+        <script>
+
+            var length = history.length;
+            alert(length);
+
+        </script>
+
+    </body>
+</html>

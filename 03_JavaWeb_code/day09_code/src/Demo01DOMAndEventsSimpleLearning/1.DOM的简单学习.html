@@ -1,0 +1,43 @@
+<!--
+
+    DOM的功能：控制html文档的内容
+
+(1).获取页面标签(元素)对象：
+
+    document.getElementById("id值")：通过元素的id获取元素对象
+
+(2).操作获取到的标签(元素)对象：
+
+	a.修改标签的属性值：明确获取的标签是哪一个？查看API文档，找其中有哪些属性可以设置
+	b.修改标签体内容：使用innerHTML属性来修改标签体内容
+
+#.注意：此时<script>...</script>标签一定要写在html标签的下方。如果写在其上方，html标签还没有被加载，将获取不到其元素对象。
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM的简单学习</title>
+    </head>
+    <body>
+
+        <img id="light" src="./images/off.gif">
+        <h1 id="title">有了目标就要全力以赴！</h1>
+
+        <script>
+
+            // 修改标签的属性值
+            var light = document.getElementById("light");
+            alert("我要换图片了");
+            light.src = "./images/on.gif";
+
+            // 修改标签体内容
+            var title = document.getElementById("title");
+            alert("我要换文字了");
+            title.innerHTML = "如果你有梦想，就要守护它！";
+
+        </script>
+
+    </body>
+</html>

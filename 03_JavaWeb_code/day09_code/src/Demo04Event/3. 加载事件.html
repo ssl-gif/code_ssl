@@ -1,0 +1,41 @@
+<!--
+
+加载事件：
+
+    onload：页面、图像加载完成时触发此事件
+
+#.页面加载事件 window.onload 的使用技巧：
+    之前为了能获取到html标签，我们都是把<script>标签写在html标签的下方，即：把<script>标签写在html标签的上方
+是获取不到标签的。现在使用 window.onload 就可以解决这个问题，我们可以把获取html标签的代码放在 window.onload
+的执行方法中，意味着只有等当前页面的所有html标签加载完成后才会执行获取标签的js代码，这样就能获取到下方的html标签了。
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>加载事件</title>
+    </head>
+    <body>
+
+        <!--图片加载事件onload-->
+        <img id="img" src="./images/a.jpg">
+        <script>
+            var img = document.getElementById("img");
+            img.onload = function () {
+                alert("图片加载完成了")
+            }
+        </script>
+
+
+        <!--页面加载事件 window.onload 的使用技巧-->
+        <script>
+            window.onload = function () {
+                var input = document.getElementById("input"); // 现在就能获取到input标签了
+                input.placeholder = "请输入信息"
+            }
+        </script>
+        <input id="input" type="text">
+
+    </body>
+</html>

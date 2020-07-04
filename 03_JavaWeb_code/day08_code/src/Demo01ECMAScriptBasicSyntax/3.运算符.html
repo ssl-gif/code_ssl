@@ -32,17 +32,16 @@
     对象转boolean：所有对象都为true
 
 ②.由以上数据类型转换成boolean的规则，我们可以延伸出以下使用技巧：
+    a.在java中死循环的写法：while(true){ }
+      在js中死循环可以写为：while(1){ }
 
-a.在java中死循环的写法：while(true){ }
-  在js中死循环可以写为：while(1){ }
+    b.在java中防止对象的空指针异常：if(obj != null){ }
+      在js中防止对象的空指针异常：if(obj){ }
 
-b.在java中防止对象的空指针异常：if(obj != null){ }
-  在js中防止对象的空指针异常：if(obj){ }
+    c.在java中防止字符串为空：if(str !=null && str.length > 0){ }
+      在java中防止字符串为空：if(str){ }
 
-c.在java中防止字符串为空：if(str !=null && str.length > 0){ }
-  在java中防止字符串为空：if(str){ }
-
-(6).三元运算符：表达式 ? 值1:值2;
+(6).三元运算符：表达式 ? 值1:值2;  判断表达式的值，如果是true则返回值1，如果是false则返回值2
 
 -->
 <!DOCTYPE html>
@@ -85,9 +84,20 @@ c.在java中防止字符串为空：if(str !=null && str.length > 0){ }
         document.write(("123" == 123) + "<br/>");  // b.类型不同：string先转为number类型，再比较
         document.write(("123" === 123) + "<br/>"); // c.全等于 ===
 
-        // (5).逻辑运算符：略
+        // (5).逻辑运算符
+        // #.注意事项：
+        var num3 = 0;  var num4 = 56;
+        document.write(!num3 + "<br/>");    document.write(!num4 + "<br/>"); // number转boolean
+        var str1 = "";  var str2 = "abc";
+        document.write(!str1 + "<br/>");    document.write(!str2 + "<br/>"); // string转boolean
+        var obj1 = null;    var obj2 = undefined;
+        document.write(!obj1 + "<br/>");    document.write(!obj2 + "<br/>"); // null、undefined转boolean
+        var date = new Date();
+        document.write(!date + "<br/>");                                     // 对象转boolean
 
-        // (6).三元运算符：略
+        // (6).三元运算符
+        var flag = (5 > 4) ? true : false;
+        document.write(flag + "<br/>");
 
     </script>
 

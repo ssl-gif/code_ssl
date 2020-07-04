@@ -1,0 +1,53 @@
+<!--
+
+    Math对象：数学对象，类似于java中的Math工具类，Math对象不用创建，可以直接使用其中的属性和方法
+
+1.Math对象的属性：
+    PI：返回圆周率(约等于3.14159)
+    E：返回算术常量e，即自然对数的底数(约等于2.718)
+
+2.Math对象的方法：
+    random()：返回[0, 1)之间的随机数
+    ceil(x)：向上取整
+    floor(x)：向下取整
+    round(x)：四舍五入
+    ...
+
+3.练习：取[1, 100]之间的随机整数
+
+步骤：
+    使用random()方法，得到[0, 1)之间的随机数
+    乘以 100，得到[0, 100)之间的随机数
+    使用floor()方法，舍弃随机数的小数部分，得到[0, 100)之间的随机整数
+    加1，得到[1, 101)之间的随机整数，即：[1, 100]之间的随机整数
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Math对象</title>
+    </head>
+
+    <script>
+
+        // 1.Math对象的属性
+        document.write(Math.PI + "<br/>"); // 3.141592653589793
+        document.write(Math.E + "<br/>");  // 2.718281828459045
+
+        // 2.Math对象的方法
+        document.write(Math.random() + "<br/>");
+        document.write(Math.ceil(3.14) + "<br/>");  // 4
+        document.write(Math.floor(3.14) + "<br/>"); // 3
+        document.write(Math.round(3.14) + "<br/>"); // 3
+
+        // 3.练习
+        var number = Math.floor(Math.random() * 100) + 1;
+        document.write(number);
+
+    </script>
+
+    <body>
+
+    </body>
+</html>
