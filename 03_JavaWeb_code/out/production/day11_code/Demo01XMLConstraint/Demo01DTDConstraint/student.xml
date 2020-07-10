@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+
+DTD约束文档的引入：
+
+	(1).内部DTD：将约束规则定义在xml文档中
+
+		<!DOCTYPE 根标签名 [约束规则]>
+
+	(2).外部DTD：将约束的规则定义在外部的.dtd文件中，然后将文件引入xml文档
+		a.引入本地.dtd文件：<!DOCTYPE 根标签名 SYSTEM "dtd文件路径">
+		b.引入网络.dtd文件：<!DOCTYPE 根标签名 PUBLIC "dtd文件名称" "dtd文件路径URL">
+
+-->
+
+<!--(1).内部DTD：-->
+<!DOCTYPE students [
+	<!ELEMENT students (student*) >
+	<!ELEMENT student (name,age,sex)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT sex (#PCDATA)>
+	<!ATTLIST student number ID #REQUIRED>
+]>
+
+<!--(2).外部DTD：-->
+<!DOCTYPE students SYSTEM "./student.dtd">
+
+<students>
+
+	<student number="s001">
+		<name>zhangsan</name>
+		<age>abc</age>
+		<sex>hehe</sex>
+	</student>
+
+	<student number="s002">
+		<name>lisi</name>
+		<age>24</age>
+		<sex>female</sex>
+	</student>
+
+</students>

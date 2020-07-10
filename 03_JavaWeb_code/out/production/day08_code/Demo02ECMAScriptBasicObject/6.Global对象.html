@@ -1,0 +1,65 @@
+<!--
+
+    Global对象：全局对象，意味着Global对象中封装的方法不需要对象就可以直接调用
+
+(1).URL编码、解码的方法
+
+    首先我们要知道什么是URL编码，前端页面在与服务器进行通信的时候，要符合HTTP协议，而HTTP协议是不支持中文字符传输的，
+所以在前端页面向服务器传输一些中文数据时，需要将这些中文字符进行URL编码后再进行传输。服务器接收到中文字符URL的编码格式
+后，再对其进行URL解码即可获取到传输过来的中文数据。URL编码的规则就是：将中文字符的字节形式转换为十六进制，前面再加上百分号%。例如：传智播客 = %E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
+    在js中，提供了一些将字符串进行URL编码、解码的方法，如下：
+
+encodeURI()：url编码
+decodeURI()：url解码
+
+encodeURIComponent()：url编码，可以编码的字符更多
+decodeURIComponent()：url解码
+
+(2).parseInt()方法：将字符串转为数字。逐一判断每一个字符是否是数字，直到不是数字为止，将前边数字部分转为number
+
+(3).isNaN()方法：判断一个值是否是NaN。由于NaN参与的 == 比较全部为false，所以需要使用此方法来判断一个值是否是NaN。(NaN六亲不认，连自己都不认)
+
+(4).eval()方法：将字符串作为JavaScript脚本代码来执行
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Global对象</title>
+    </head>
+
+    <script>
+
+        // (1).URL编码、解码的方法
+        var URL1 = encodeURI("http://www.baidu.com?wd=传智播客");
+        document.write(URL1 + "<br/>"); // http://www.baidu.com?wd=%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
+        var str1 = decodeURI(URL1);
+        document.write(str1 + "<br/>"); // http://www.baidu.com?wd=传智播客
+
+        var URL2 = encodeURIComponent("http://www.baidu.com?wd=传智播客");
+        document.write(URL2 + "<br/>"); // http%3A%2F%2Fwww.baidu.com%3Fwd%3D%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
+        var str2 = decodeURIComponent(URL2);
+        document.write(str2 + "<br/>"); // http://www.baidu.com?wd=传智播客
+
+        // (2).parseInt()方法
+        var num1 = parseInt("123abc");
+        document.write(num1 + "<br/>"); // 123
+        var num2 = parseInt("abc123abc");
+        document.write(num2 + "<br/>"); // NaN
+
+        // (3).isNaN()方法
+        var a = NaN;
+        document.write(a == NaN + "<br/>"); // false
+        document.write(isNaN(a) + "<br/>"); // true
+
+        // (4).eval()方法
+        var jscode = "document.write(123456);"
+        eval(jscode);
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

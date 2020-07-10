@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>ServletDemo01</servlet-name>               <!--给Servlet起个名字-->
+        <servlet-class>web.servlet.ServletDemo01</servlet-class> <!--Servlet的全类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo01</servlet-name> <!--给Servlet起个名字-->
+        <url-pattern>/aaa</url-pattern>            <!--Servlet的资源路径-->
+    </servlet-mapping>
+
+</web-app>

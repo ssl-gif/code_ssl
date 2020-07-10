@@ -1,0 +1,100 @@
+<!--
+
+    Function对象：函数、方法对象
+
+1.方法对象的创建
+
+    法一：  var 方法名 = new Function(形式参数列表, 方法体);    基本不使用，可以忘记了
+
+    法二：  function 方法名(形式参数列表){
+                  方法体;
+            }
+
+    法三：  var 方法名 = function(形式参数列表){
+                  方法体;
+            }
+
+2.方法的调用：方法名称(实际参数列表);
+
+3.方法对象的属性：
+    length属性：返回形参的个数
+    ...
+
+
+
+#.注意事项：
+(1).由于方法是一个对象，所以方法可以被重新赋值。并且如果定义名称相同的方法，并不会报错、会覆盖。
+(2).在JS中，方法的调用只与方法的名称有关，和参数列表无关
+(3).在方法声明中有一个隐藏的内置对象：arguments数组对象，用来封装传递进去的所有实际参数
+(4).方法定义时，由于形式参数、返回值的类型都是var，所以不需要写，写了反而会报错
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Function对象</title>
+    </head>
+
+    <script>
+
+        // 1.Function对象的创建
+        var fun1 = new Function("a", "b", "return a+b;");
+
+        function fun2(a, b) {
+            return a + b;
+        }
+
+        var fun3 = function (a, b) {
+            return a + b;
+        }
+
+        // 2.方法的调用
+        var num1 = fun1(3, 4);  document.write(num1 + "<br/>");
+        var num2 = fun2(3, 4);  document.write(num2 + "<br/>");
+        var num3 = fun3(3, 4);  document.write(num3 + "<br/>");
+
+        // 3.Function对象的属性
+        document.write(fun1.length + "<br/>"); // 2
+        document.write(fun2.length + "<br/>"); // 2
+        document.write(fun3.length + "<br/>"); // 2
+
+        // #.注意事项：
+
+        // (1).方法可以被重新赋值，并且可以定义名称相同的方法，不会报错、会覆盖
+        fun3 = function (a, b) {
+            return a - b;
+        }
+        document.write(fun3(3, 4) + "<br/>"); // -1
+
+        var fun3 = function (a, b) {
+            return a * b;
+        }
+        document.write(fun3(3, 4) + "<br/>"); // 12
+
+        // (2).方法的调用只与方法的名称有关，和参数列表无关
+        var fun4 = function (a, b) {
+            document.write(a + "<br/>");
+            document.write(b + "<br/>");
+        }
+        fun4(1, 2);    // 1  2
+        fun4(1);       // 1  undefined
+        fun4(1, 2, 3); // 1  2
+
+        // (3).arguments数组对象：所有传递进方法的参数都会被存入该数组中
+        function add() { // 定义一个方法求任意个数字之和
+            var sum = 0;
+            for (var i = 0; i < arguments.length; i++) {
+                sum += arguments[i];
+            }
+            return sum;
+        }
+        document.write(add(1, 2, 3, 4, 5) + "<br/>");
+        document.write(add(1, 2, 3, 4, 5, 6, 7, 8) + "<br/>");
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

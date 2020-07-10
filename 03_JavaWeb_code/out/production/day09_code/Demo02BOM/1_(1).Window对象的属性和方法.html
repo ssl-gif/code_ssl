@@ -1,0 +1,125 @@
+<!--
+
+    Window窗口对象：Window对象不需要创建，可以直接使用window来调用其中的属性、方法。即：window.属性名;
+window.方法名();   并且window引用可以省略，即：直接写属性名、方法名即可
+
+1.Window对象中的方法：(window引用可以省略，直接写方法名即可)
+
+    (1).与弹出框有关的方法：
+        alert()：弹出带有一段消息和一个确认按钮的警告框
+        confirm()：弹出带有一段消息以及确认按钮和取消按钮的对话框。参数为提示信息，返回值：点击确定则返回true，点击取消则返回false。
+        prompt()：弹出可提示用户输入的对话框。参数为提示信息，返回值为用户输入的值。
+
+    (2).与打开、关闭有关的方法：
+        open()：打开一个新的浏览器窗口，返回值就是新打开的Window对象。并且参数传递URL，还可以打开指定URL的新窗口。
+        close()：关闭浏览器窗口。哪个Window对象调用close方法，就关闭哪个窗口。
+
+    (3).与定时器有关的方法：
+        setTimeout(js代码，毫秒值)：在指定的毫秒数后调用函数或计算表达式。返回值为该定时器的唯一标识，用于取消定时器。
+        clearTimeout()：取消由setTimeout方法设置的定时器。
+
+        setInterval(js代码，毫秒值)：按照指定的周期来调用函数或计算表达式，即循环定时器。
+        clearInterval()：取消由setInterval方法设置的定时器。
+
+
+2.Window对象中的属性：(window引用可以省略，直接写属性名即可)
+
+    (1).用来获取其他BOM对象：
+        Window对象具有location、history、Navigator、Screen属性，分别用来获取当前窗口的历史记录、地址栏、浏览器、显示器屏幕对象，
+    所以上述4个对象不需要创建，直接使用Window对象即可获取。
+
+    (2).用来获取DOM对象：
+        Window对象还具有document属性，用来获取当前窗口的html文档对象，这是一个DOM对象。
+
+#.由Window对象具有的这些属性，也可以看出：其他BOM对象和Document对象都属于Window对象，即每一个Window窗口对象都含有这些对象！
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Window窗口对象</title>
+    </head>
+    <body>
+
+        <!--1_(1).与弹出框有关的方法：-->
+        <script>
+
+            alert("Hello Window");
+            window.alert("Hello Window");
+
+            var flag = window.confirm("您确定执行该操作吗？");
+            if (flag) {
+                alert("用户点击了确定按钮");
+            } else {
+                alert("用户点击了取消按钮");
+            }
+
+            var message = window.prompt("请输入信息：");
+            alert(message);
+
+        </script>
+
+        <!--1_(2).与打开、关闭有关的方法：-->
+        <input id="openBtn" type="button" value="打开窗口">
+        <input id="closeBtn" type="button" value="关闭窗口">
+        <script>
+
+            var openBtn = document.getElementById("openBtn");
+            openBtn.onclick = function () {
+                newWindow1 = window.open();                         // 打开空白窗口，返回值在方法体内不加var相当于是全局变量
+                newWindow2 = window.open("https://www.baidu.com/"); // 打开百度窗口
+            }
+
+            var closeBtn = document.getElementById("closeBtn");
+            closeBtn.onclick = function () {
+                window.close(); // 关闭当前窗口
+                newWindow1.close();
+                newWindow2.close();
+            }
+
+        </script>
+
+        <!--1_(3).与定时器有关的方法：-->
+        <script>
+
+            var id = window.setTimeout(fun1, 2000); // 将js代码封装为方法，直接传递方法引用即可
+            window.clearTimeout(id);
+
+            var id = window.setInterval(fun2, 2000);
+            window.clearInterval(id);
+
+            function fun1() {
+                alert("boom~~~");
+            }
+            function fun2() {
+                alert("boom~~~");
+            }
+        </script>
+
+
+        <!--2_(1).用来获取其他BOM对象：-->
+        <script>
+
+            alert(location);
+            alert(window.location);
+
+            alert(history);
+            alert(window.history);
+
+            alert(Navigator);
+            alert(window.Navigator);
+
+            alert(Screen);
+            alert(window.Screen);
+
+        </script>
+
+        <!--2_(2).用来获取DOM对象：-->
+        <script>
+            document.write("苟有恒，何必三更起五更眠；");
+            window.document.write("最无益，莫过一日曝十日寒");
+        </script>
+
+    </body>
+</html>

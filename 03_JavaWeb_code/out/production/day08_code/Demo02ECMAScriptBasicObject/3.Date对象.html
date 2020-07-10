@@ -1,0 +1,34 @@
+<!--
+
+    Date对象：日期对象
+
+1.日期对象的创建：  var 对象名 = new Date();   创建的Date对象会自动把当前日期和时间保存为其初始值
+
+2.日期对象的方法：
+    toLocaleString()：以本地时间的字符串格式，返回当前date对象对应的时间
+    getTime()：获取date对象的毫秒值。即：当前date对象描述的时间到1970年1月1日零点的毫秒值之差
+    ...
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Date对象</title>
+    </head>
+
+    <script>
+
+        // 1.日期对象的创建
+        var date = new Date();
+
+        // 2.日期对象的方法
+        document.write(date.toLocaleString() + "<br/>"); // 2020/6/29 下午4:24:41
+        document.write(date.getTime() + "<br/>");        // 1593419081050
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

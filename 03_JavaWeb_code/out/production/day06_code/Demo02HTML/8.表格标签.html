@@ -1,0 +1,103 @@
+<!--
+
+8.表格标签：<table>...</table>，用来定义一个表格
+
+    在讲表格标签之前，一定要明白在html里面表格是如何定义出来的。传统的excel表格是分为几行几列，而在html中是先定义好
+有几行，再在每一行中定义有几个单元格。(见"参考\02_html中表格的定义方式.png")
+
+(1).table标签的属性：控制整个表格的属性
+
+    border：整个表格外框线的宽度
+    width：整个表格的宽度
+    cellpadding：每个单元格里的内容和单元格之间的距离
+    cellspacing：每个单元格之间的距离(如果指定为0，则单元格的线会合为一条)
+    bgcolor：整个表格的背景色
+    align：整个表格的对齐方式(不是单元格里面的内容的对齐方式)
+
+(2).table标签的子标签：
+
+    <tr>...</tr>：定义行的标签，控制每行的属性：bgcolor(行背景色)、align(行对齐方式)等
+    <td>...</td>：定义行内单元格的标签
+    <th>...</th>：定义表头单元格，就是表第一行单元格的定义，可以使用th标签来代替td标签，表示这是表头，并且样式也会发生变化
+    <caption>...</caption>：定义表格标题的标签
+
+    #.thead、tbody、tfoot标签与语义化标签的使用类似，只是为了表明表格的每个部分，利于程序的可读性、以及后期和CSS的结合使用
+    <thead>...</thead>：定义表格的头部分
+    <tbody>...</tbody>：定义表格的体部分
+    <tfoot>...</tfoot>：定义表格的脚部分
+
+(3).单元格的合并：使用单元格标签td、th的属性来合并单元格
+    rowspan(合并行)：数值是几，就代表该单元格占几行
+    colspan(合并列)：数值是几，就代表该单元格占几列
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>表格标签</title>
+    </head>
+    <body>
+
+        <!--定义一个"学生信息表"表格-->
+        <table border="1" width="800" cellpadding="0" cellspacing="0" bgcolor="#FF9777" align="center">
+
+            <!--表格的头部分-->
+            <thead>
+                <caption>学生信息表</caption>
+                <tr>
+                    <!--<td>编号</td>
+                    <td>姓名</td>
+                    <td>成绩</td>-->
+                    <th>编号</th>
+                    <th>姓名</th>
+                    <th>成绩</th>
+                </tr>
+            </thead>
+
+            <!--表格的体部分-->
+            <tbody>
+                <tr bgcolor="gray" align="center">
+                    <td>1</td>
+                    <td>小龙女</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>杨过</td>
+                    <td>50</td>
+                </tr>
+            </tbody>
+
+            <!--表格的脚部分-->
+            <tfoot>
+                <tr>
+                    <td>3</td>
+                    <td>尹志平</td>
+                    <td>25</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+
+        <!--单元格的合并-->
+        <table border="1" width="800" cellpadding="0" cellspacing="0" bgcolor="#FF9777" align="center">
+            <tr>
+                <th rowspan="2">编号</th> <!--第一行的第一个单元格占两行，所以第二行只需定义后两个单元格-->
+                <th>姓名</th>
+                <th>成绩</th>
+            </tr>
+            <tr>
+                <td>小龙女</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="2">杨过</td> <!--第三行的第二个单元格占两列，所以第三行只需定义前两个单元格-->
+            </tr>
+        </table>
+
+
+    </body>
+</html>

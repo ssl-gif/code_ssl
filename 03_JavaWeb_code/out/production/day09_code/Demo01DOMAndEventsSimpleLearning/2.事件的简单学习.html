@@ -1,0 +1,49 @@
+<!--
+
+    每个html标签都具有事件属性，事件属性的内容就是js代码。例如：每个标签都具有onclick单击属性，
+当我们对某个标签的onclick属性进行设置后，单击该标签就会执行相应的js代码，就完成了事件的绑定操作。
+绑定事件有以下两种方法：
+
+    法一：直接在html标签上，设置事件的属性值，属性值就是js代码
+
+    法二：使用DOM获取元素对象，再通过元素对象来设置事件的属性值
+
+#.注意：
+(1).在设置事件属性的js代码时，一般我们会将其封装为一个方法，利于程序的可读性、扩展性。
+(2).在使用法一的时候，html、js代码还是混合在一起的，并没有达到解耦的效果，所以推荐使用法二
+(3).在使用法二的时候，一般还会使用如下匿名方法的方式：
+        light2.onclick = function(){
+            alert("on.gif被点击了");
+        };
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>事件的简单学习</title>
+    </head>
+    <body>
+
+        <!--使用法一来绑定单击事件-->
+        <img id="light1" src="./images/off.gif" onclick="fun1();">
+        <script>
+            function fun1() {
+                alert("off.gif被点击了");
+            }
+        </script>
+
+
+        <!--使用法二来绑定单击事件-->
+        <img id="light2" src="./images/on.gif">
+        <script>
+            var light2 = document.getElementById("light2");
+            light2.onclick = fun2; // 直接传递方法引用名即可，不能传递完整的方法调用：fun2(); 因为这代表了直接执行fun2方法
+
+            function fun2() {
+                alert("on.gif被点击了");
+            }
+        </script>
+
+    </body>
+</html>

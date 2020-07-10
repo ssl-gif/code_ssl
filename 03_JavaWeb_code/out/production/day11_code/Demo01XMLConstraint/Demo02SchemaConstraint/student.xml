@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+
+Schema约束文档的引入：
+
+	1.引入xsi前缀：xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	2.引入xsd文件命名空间：xsi:schemaLocation="http://www.itcast.cn/xml  .xsd文件路径"
+	3.为每一个xsd约束声明一个前缀，作为标识：xmlns="http://www.itcast.cn/xml"
+
+把视频再看一遍，注意理解：当引入多个.xsd约束文件时，为不同.xsd文件的命名空间加前缀的操作
+
+-->
+
+<students
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.itcast.cn/xml  ./student.xsd"
+		xmlns="http://www.itcast.cn/xml"
+>
+
+	<student number="heima_0001">
+		<name>tom</name>
+		<age>18</age>
+		<sex>male</sex>
+	</student>
+
+</students>

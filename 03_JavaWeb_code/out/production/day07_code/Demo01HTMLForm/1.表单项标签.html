@@ -1,0 +1,104 @@
+<!--
+
+表单项标签：
+
+    所有的表单项标签都具有name、id属性。name属性指定了各个表单项标签的名称，用于对提交到服务器后的表单数据进行标识。
+并且表单项中的数据想要被提交，必须指定其name属性。而id属性是每个表单项标签的唯一标识，不可重复。
+
+1.<input>标签：可以通过type属性，来指定标签的展示样式、功能
+
+    (1).type="text"：文本输入框，为type属性的默认值。value属性为文本输入框的内容。
+
+    (2).type="password"：密码输入框，与文本输入框不同的是，数据输入时会被隐藏显示。value属性为密码输入框的内容。
+
+    (3).type="radio"：单选框
+        a.要想让多个单选框实现单选的效果，则多个单选框的name属性值必须一样
+        b.一般会给每一个单选框提供value属性，指定其被选中后提交的值
+        c.checked属性：为true、checked代表被选中，为false代表未被选中。可以指定单选框的初始默认值(checked="true"、checked="checked"、checked三种写法均可)
+
+    (4).type="checkbox"：复选框
+        a.一般会给每一个复选框提供value属性，指定其被选中后提交的值
+        b.checked属性：为true、checked代表被选中，为false代表未被选中。可以指定复选框的初始默认值(checked="true"、checked="checked"、checked三种写法均可)
+
+    (5).type="file"：文件选择框
+
+    (6).type="hidden"：隐藏域，用于提交一些隐藏的信息。value属性可以指定隐藏域的提交值。
+
+    (7).其他常用的type属性：取色器、日期输入框、邮箱输入框、数字输入框
+
+    (8).常用的按钮：按钮不需要name属性
+        a.type="submit"：提交按钮，可以提交表单。value属性可以指定按钮的文本信息。
+        b.type="image"：图片提交按钮，也可以用来提交表单。src属性可以指定按钮图片的路径。
+        c.type="button"：普通按钮，无实质性功能，后期和JavaScript结合使用。value属性可以指定按钮的文本信息。
+
+a.placeholder属性：指定输入框的提示信息，当输入框的内容发生变化，会自动清空提示信息。
+b.<label>...</label>标签：指定输入项的文字描述信息。被label标签包裹的文本无任何特殊效果，但是label标签的for属性一般会和input标签的id属性值对应，如果对应了，则点击label区域，会让input输入框获取焦点。
+
+2.<select>...</select>标签：下拉列表，使用子标签<option>...</option>来指定列表项
+    a.value属性：指定每个列表项提交上去的值
+    b.selected属性：设置其初始默认值(selected="selected"、selected两种写法均可)
+
+3.<textarea>...</textarea>标签：文本域
+    a.cols属性：指定列数，每一行有多少个字符
+	b.rows属性：默认多少行(文本域的大小不够会自动扩充，rows属性只是默认其初始有多少行)
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>表单项标签</title>
+    </head>
+    <body>
+
+        <form action="#" method="post">
+
+
+            <!--文本输入框-->
+            <label for="1">用户名：</label> <input type="text" name="username" placeholder="请输入用户名" id="1"></br>
+
+            <!--密码输入框-->
+            <label for="2">密码：</label>  <input type="password" name="password" placeholder="请输入密码" id="2"></br>
+
+            <!--单选框-->
+            性别：<input type="radio" name="gender" value="male" checked="true">男 <input type="radio" name="gender" value="female">女</br>
+
+            <!--复选框-->
+            爱好：<input type="checkbox" name="hobby" value="shopping" checked="checked">逛街 <input type="checkbox" name="hobby" value="java" checked>Java <input type="checkbox" name="hobby" value="game"> 游戏</br>
+
+            <!--文件选择框-->
+            图片：<input type="file" name="file"></br>
+            
+            <!--隐藏域-->
+            隐藏域：<input type="hidden" name="hidden" value="aaa"></br>
+
+            <!--其他常用的type属性-->
+            取色器：<input type="color" name="color"></br>              <!--取色器-->
+            生日：<input type="date" name="birthday"></br>              <!--日期输入框date：只包含年月日-->
+            生日：<input type="datetime-local" name="birthday"></br>    <!--日期输入框datetime-local：包含年月日时分秒-->
+            邮箱：<input type="email" name="email"></br>                <!--邮箱输入框email：会对邮箱格式进行校验-->
+            年龄：<input type="number" name="age"></br>                 <!--数字输入框number-->
+
+            <!--常用的按钮-->
+            <input type="submit" value="登录"></br>
+            <input type="button" value="一个按钮"></br>
+            <input type="image" src="./images/regbtn.jpg"></br>
+
+
+            <!--下拉列表-->
+            省份：<select name="province">
+                    <option value="">--请选择--</option>
+                    <option value="1">北京</option>
+                    <option value="2">上海</option>
+                    <option value="3" selected="selected">陕西</option>
+                 </select></br>
+
+
+            <!--文本域-->
+            自我描述：</br><textarea cols="20" rows="5" name="self_description"></textarea>
+
+
+        </form>
+
+    </body>
+</html>

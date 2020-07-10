@@ -1,0 +1,78 @@
+<!--
+
+    Document文档对象：是DOM树中表示整个html文档的对象。Document文档对象不需要创建，可以使用window对象直接获取，
+即：window.document; 其中window引用可以省略。
+
+1.获取Element元素对象的方法：可以使用Document对象来获取，html文档中各个标签所对应的Element元素对象
+
+    getElementById()：根据id属性值获取Element元素对象(id属性值一般唯一)
+    getElementsByTagName()：根据元素名称获取Element元素对象们，返回值是一个数组
+    getElementsByClassName()：根据class属性值获取Element元素对象们，返回值是一个数组
+    getElementsByName()：根据name属性值获取Element元素对象们，返回值是一个数组
+    ...
+
+2.创建其他DOM对象的方法：可以使用Document对象，在当前文档中创建标签、属性、文本、注释所对应的DOM对象，返回值就是创建好的DOM对象
+
+    createElement()：创建Element元素对象
+    createAttribute()：创建Attribute属性对象
+    createTextNode()：创建Text文本对象
+    createComment()：创建Comment注释对象
+    ...
+
+#.注意：
+    这些创建好的DOM对象并没有被添加到DOM树中，所以不会显示在html文档中。它们只是暂时存在于内存当中，
+想要把这些对象添加到DOM树中，需要使用后续的Node节点对象
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document文档对象</title>
+    </head>
+    <body>
+
+        <div id="div1">div1</div>
+        <div id="div2">div2</div>
+        <div id="div3">div3</div>
+
+        <div class="cls1">div4</div>
+        <div class="cls1">div5</div>
+
+        <input type="text" name="username">
+
+
+        <!--1.获取Element元素对象的方法：-->
+        <script>
+
+            var element_div1 = document.getElementById("div1");
+            var element_div2 = document.getElementById("div2");
+            var element_div3 = document.getElementById("div3");
+
+            var elements_div1 = document.getElementsByTagName("div");
+            for (var i = 0; i < elements_div1.length; i++) {
+                document.write(elements_div1[i] + "<br/>");
+            }
+
+            var elements_div2 = document.getElementsByClassName("cls1");
+            document.write(elements_div2[0] + "<br/>");
+            document.write(elements_div2[1] + "<br/>");
+
+            var elements_input = document.getElementsByName("username");
+            document.write(elements_input[0] + "<br/>");
+
+        </script>
+
+
+        <!--2.创建其他DOM对象的方法：-->
+        <script>
+
+            var inputElement = document.createElement("input");
+            var attributeElement = document.createAttribute("href");
+            var textElement = document.createTextNode("文本内容");
+            var commentElement = document.createComment("注释内容");
+
+        </script>
+
+    </body>
+</html>

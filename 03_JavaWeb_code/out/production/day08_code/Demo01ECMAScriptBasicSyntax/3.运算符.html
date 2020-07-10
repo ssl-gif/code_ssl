@@ -1,0 +1,107 @@
+<!--
+
+(1).一元运算符：只有一个运算数的运算符
+
+    a.自增运算符 ++、自减运算符 --
+    b.正号 +、负号 -
+
+#.注意事项：
+    在js中，如果运算数不是运算符所要求的类型，那么js引擎会自动的将运算数进行类型转换。即：如果我在string、boolean类型
+的数据前面加一个正号，由于正号运算要求的是number类型数据，那么string、boolean类型的数据会按照以下规则转换为number类型，
+再参与正号运算。(其他运算符同理)
+    string转number：按照字面值转换。如果字面值不是数字，则转为NaN(不是数字的数字)
+    boolean转number：true转为1、false转为0
+
+(2).算数运算符：加 +、减 -、乘 *、除 /、取模 %
+
+(3).赋值运算符：基本赋值 =、加等于 +=、减等于 -+ ...
+
+(4).比较运算符：大于 >、小于 <、大于等于 >=、小于等于 <=、等于 ==、全等于 ===
+
+    a.类型相同：直接比较(字符串之间：按照字典顺序按位逐一比较，直到得出大小为止)
+    b.类型不同：先进行类型转换，再比较
+    c.全等于 ===：在比较之前，先判断类型，如果类型不一样，则直接返回false
+
+(5).逻辑运算符：与 &&、或 ||、非 !
+
+#.注意事项：
+①.逻辑运算符要求的运算数必须是boolean类型，当运算数是其他类型的时候，会按照如下规则将其转换为boolean类型，再参与逻辑运算
+    number转boolean：0、NaN为false，其他为真
+    string转boolean：除了空字符串("")为false，其它都是true
+    null、undefined转boolean：都是false
+    对象转boolean：所有对象都为true
+
+②.由以上数据类型转换成boolean的规则，我们可以延伸出以下使用技巧：
+    a.在java中死循环的写法：while(true){ }
+      在js中死循环可以写为：while(1){ }
+
+    b.在java中防止对象的空指针异常：if(obj != null){ }
+      在js中防止对象的空指针异常：if(obj){ }
+
+    c.在java中防止字符串为空：if(str !=null && str.length > 0){ }
+      在java中防止字符串为空：if(str){ }
+
+(6).三元运算符：表达式 ? 值1:值2;  判断表达式的值，如果是true则返回值1，如果是false则返回值2
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>运算符</title>
+    </head>
+
+    <script>
+
+        // (1).一元运算符
+
+        // a.自增运算符++、自减运算符--
+        var a = 3;
+        document.write(++a + "<br/>");
+        document.write(--a + "<br/>");
+
+        // b.正号+、负号-
+        var b = 4;
+        document.write(+b + "<br/>");
+        document.write(-b + "<br/>");
+
+        // #.注意事项：
+        var num1 = +"123";
+        var num2 = +"abc";
+        document.write(num1 + " ---> " + typeof (num1) + "<br/>"); // string转number
+        document.write(num2 + " ---> " + typeof (num2) + "<br/>");
+        var flag1 = +true;
+        var flag2 = +false;
+        document.write(flag1 + " ---> " + typeof (flag1) + "<br/>"); // boolean转number
+        document.write(flag2 + " ---> " + typeof (flag2) + "<br/>");
+
+        // (2).算术运算符：略
+
+        // (3).赋值运算符：略
+
+        // (4).比较运算符
+        document.write(("abc" > "acd") + "<br/>"); // a.类型相同：直接比较
+        document.write(("123" == 123) + "<br/>");  // b.类型不同：string先转为number类型，再比较
+        document.write(("123" === 123) + "<br/>"); // c.全等于 ===
+
+        // (5).逻辑运算符
+        // #.注意事项：
+        var num3 = 0;  var num4 = 56;
+        document.write(!num3 + "<br/>");    document.write(!num4 + "<br/>"); // number转boolean
+        var str1 = "";  var str2 = "abc";
+        document.write(!str1 + "<br/>");    document.write(!str2 + "<br/>"); // string转boolean
+        var obj1 = null;    var obj2 = undefined;
+        document.write(!obj1 + "<br/>");    document.write(!obj2 + "<br/>"); // null、undefined转boolean
+        var date = new Date();
+        document.write(!date + "<br/>");                                     // 对象转boolean
+
+        // (6).三元运算符
+        var flag = (5 > 4) ? true : false;
+        document.write(flag + "<br/>");
+
+    </script>
+
+    <body>
+
+    </body>
+</html>

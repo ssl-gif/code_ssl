@@ -1,0 +1,89 @@
+<!--
+
+    Node节点对象：DOM树中的所有节点都会被映射为一个节点对象，即：DOM树中的每一个DOM对象都是一个Node节点对象，也就是说
+每一个DOM对象都可以被称为一个Node节点对象。它相当于是其他5个DOM对象的父对象，那么所有DOM对象都可以使用Node节点对象中的
+属性和方法。
+
+    Node节点对象是用来 CRUD DOM树的，所以js代码是通过Node节点对象来控制、修改DOM树，从而达到控制html文档的目的。
+
+1.Node节点对象的方法：
+
+    appendChild()：向节点的子节点列表的结尾添加新的子节点
+    removeChild()：删除(并返回)当前节点的指定子节点
+    replaceChild()：用新节点替换一个子节点
+    ...
+
+2.Node节点对象的属性：
+
+    parentNode属性：返回节点的父节点
+    ...
+
+#.注意：
+(1).并不是所有的对象都拥有父节点或子节点。例如，文本节点不能拥有子节点，所以向类似的节点添加子节点就会导致 DOM 错误
+(2).在新的DOM规范中，标签的属性并不算是标签的子节点，所以属性的控制不能以父、子节点的方式来进行
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Node节点对象</title>
+
+        <style>
+
+            div {
+                border: 2px solid red;
+            }
+
+            #div1 {
+                width: 100px;
+                height: 100px;
+            }
+
+            #div2 {
+                width: 200px;
+                height: 200px;
+            }
+
+            #div0 {
+                width: 50px;
+                height: 50px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="div2">
+            <div id="div1">div1</div>
+        </div>
+
+        <!--
+            注意：之前我们都是使用button的单击事件onclick来实现相关的点击操作，如果要使用超链接来代替button实现同样的功能，
+        a标签的href属性必须设置为："javascript:void(0);" 意味着点击超链接时页面不会跳转到href指定的url，即：不做任何操作
+        -->
+        <a id="del" href="javascript:void(0);">删除子节点div1</a>
+        <a id="add" href="javascript:void(0);">添加子节点div0</a>
+
+        <script>
+
+            var a_del = document.getElementById("del");
+            a_del.onclick = function () {
+                var ele_div2 = document.getElementById("div2");
+                var ele_div1 = document.getElementById("div1");
+                ele_div2.removeChild(ele_div1);
+            }
+
+            var a_add = document.getElementById("add");
+            a_add.onclick = function () {
+                var ele_div2 = document.getElementById("div2");
+                var ele_div0 = document.createElement("div");
+                ele_div0.setAttribute("id", "div0"); // 提前设置好div0的id属性，用于css的样式控制，在<style>标签中有写好id选择器在等着它呢
+                ele_div2.appendChild(ele_div0);
+            }
+
+        </script>
+
+    </body>
+</html>

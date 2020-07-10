@@ -1,0 +1,48 @@
+<!--
+
+    Location地址栏对象：Location对象不需要创建，是使用Window窗口对象获取出来的，即：window.location，
+其中window引用可以省略。
+
+1.Location对象中的方法：
+    reload()：重新加载当前文档，即：刷新
+    ...
+
+2.Location对象中的属性：
+    href属性：返回当前窗口地址栏中完整的URL
+    ...
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Location地址栏对象</title>
+    </head>
+    <body>
+
+        <!--1.Location对象中的reload方法：-->
+        <input id="btn01" type="button" value="刷新">
+        <script>
+
+            var btn01 = document.getElementById("btn01");
+            btn01.onclick = function () {
+                location.reload();
+            }
+
+        </script>
+
+        <!--2.Location对象中的href属性：-->
+        <input id="btn02" type="button" value="去百度">
+        <script>
+
+            alert(location.href); // 获取地址栏中的URL
+
+            var btn02 = document.getElementById("btn02");
+            btn02.onclick = function () {
+                location.href = "https://www.baidu.com/"; // 重新设置地址栏的URL，完成页面的跳转
+            }
+
+        </script>
+
+    </body>
+</html>

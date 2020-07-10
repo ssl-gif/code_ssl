@@ -1,0 +1,106 @@
+<!--
+#.关于盒子模型，笔记无法说清楚，把视频再看一遍就理解了！
+
+盒子模型：使用以下属性，来控制各个标签在页面中的布局，像在页面中摆放各个盒子(标签)的位置一样
+
+(1).外边距margin属性
+
+例子1：margin:10px 5px 15px 20px;
+      上外边距是 10px
+      右外边距是 5px
+      下外边距是 15px
+      左外边距是 20px
+
+例子2：margin:10px 5px 15px;
+      上外边距是 10px
+      右外边距和左外边距是 5px
+      下外边距是 15px
+
+例子3：margin:10px 5px;
+      上外边距和下外边距是 10px
+      右外边距和左外边距是 5px
+
+例子4：margin:10px;
+      所有4个外边距都是 10px
+
+(2).内边距padding属性：默认情况下设置内边距会影响整个盒子的大小，可通过 box-sizing: border-box; 来设置盒子大小不发生变化
+
+例子1：padding:10px 5px 15px 20px;
+      上内边距是 10px
+      右内边距是 5px
+      下内边距是 15px
+      左内边距是 20px
+
+例子2：padding:10px 5px 15px;
+      上内边距是 10px
+      右内边距和左内边距是 5px
+      下内边距是 15px
+
+例子3：padding:10px 5px;
+      上内边距和下内边距是 10px
+      右内边距和左内边距是 5px
+
+例子4：padding:10px;
+      所有 4 个内边距都是 10px
+
+(3).浮动float属性：left为左浮动，right为右浮动
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>盒子模型</title>
+
+        <style>
+
+            div {
+                border: 1px solid red;
+                width: 100px;
+            }
+
+            .div1 {
+                width: 100px;
+                height: 100px;
+                /*通过外边距来设置div1在div2中居中显示*/
+                margin: 50px;
+            }
+
+            .div2 {
+                width: 200px;
+                height: 200px;
+                /*通过内边距来设置div1在div2中居中显示*/
+                padding: 50px;
+                box-sizing: border-box; /*设置盒子大小不发生变化*/
+            }
+
+
+            /*将div3设置为左浮动*/
+            .div3 {
+                float: left;
+            }
+            /*将div4设置为左浮动*/
+            .div4 {
+                float: left;
+            }
+            /*将div5设置为右浮动*/
+            .div5 {
+                float: right;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="div2">
+            <div class="div1"></div>
+        </div>
+
+
+        <div class="div3">aaaa</div>
+        <div class="div4">bbbbb</div>
+        <div class="div5">cccc</div>
+
+    </body>
+</html>
