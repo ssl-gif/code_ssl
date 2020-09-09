@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/.idea/artifacts/day12_code_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo01XMLConstraint/Demo01DTDConstraint/student.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo01XMLConstraint/Demo01DTDConstraint/student.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo01XMLConstraint/Demo02SchemaConstraint/student.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo01XMLConstraint/Demo02SchemaConstraint/student.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo02XMLParsing/Demo00Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo02XMLParsing/Demo01JsoupToolClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo02XMLParsing/Demo02DocumentObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo02XMLParsing/Demo03ElementObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo02XMLParsing/Demo04NodeObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo02XMLParsing/Demo05QuickQuery01_Selector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo02XMLParsing/Demo05QuickQuery02_XPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo02XMLParsing/libs/jsoup-1.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/Demo02XMLParsing/student.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day12_code/src/web/ServletDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day12_code/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day12_code/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day01_code/day01_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_code/day01_code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day01_code/day01_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day01_code/day01_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day02_code/day04_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day12_code/day12_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day06_code/src/Demo02HTML/0.HTML入门程序.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day06_code/src/Demo02HTML/0.HTML入门程序.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day07_code/src/Demo01HTMLForm/0.表单标签入门程序.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day07_code/src/Demo01HTMLForm/0.表单标签入门程序.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day08_javaScript基础/day08_javaScript基础.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/day11_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/day11_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/XML入门程序.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/src/XML入门程序.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/out/production/day01_code/Demo01JunitUnitTest/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/out/production/day01_code/Demo01JunitUnitTest/DemoMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/out/production/day01_code/Demo01JunitUnitTest/test/CalculatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/out/production/day01_code/META-INF/day01_code.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/out/production/day04_code/DemoMain.class" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,9 +26,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="basic_code" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -77,8 +42,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -91,7 +61,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
@@ -109,19 +79,20 @@
       <recent name="E:\code_ssl\basic_code\day10_code\src\Polymorphic\BenefitsOfPolymorphic" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.StringSplit">
+  <component name="RunManager" selected="Application.ArrayReverse">
+    <configuration name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayCommonOperation.ArrayReverse" />
+      <module name="day05_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayCommonOperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo04ReferenceTypeUsageSummary.Demo02InterfaceAsMemberVariable.DemoMain" />
       <module name="day11_code" />
@@ -213,14 +184,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayReverse" />
         <item itemvalue="Application.StringSplit" />
         <item itemvalue="Application.RedPacketMain" />
         <item itemvalue="Application.DemoMain" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -318,26 +302,53 @@
       <workItem from="1594090409394" duration="24000" />
       <workItem from="1594262501359" duration="2000" />
       <workItem from="1594264147798" duration="33000" />
+      <workItem from="1599453645127" duration="59000" />
+      <workItem from="1599454136773" duration="658000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1599454773679">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1599454773679" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1599454800858">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1599454800858" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1599454800858">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1599454800858" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1599454800858">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1599454800858" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1599454800858">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1599454800858" />
+    <state x="281" y="98" key="SettingsEditor" timestamp="1599454774904">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="281" y="98" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599454774904" />
   </component>
 </project>
