@@ -1,6 +1,6 @@
 package Demo02_Operator;
 
-public class Demo02_TernaryOperator {
+public class Demo05_TernaryOperator {
     public static void main(String[] args) {
 
         // 使用三元运算符求两个数的最大值：

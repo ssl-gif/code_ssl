@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day02_code/src/Demo03_MethodIntroduction/Demo01_MethodIntroduction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_code/src/Demo01Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_code/src/Demo01_Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_code/src/Demo02Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_code/src/Demo02_Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/DataTypeConversion/AutomaticTypeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo01_DataTypeConversion/Demo01_AutomaticTypeConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/DataTypeConversion/ForceTypeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo01_DataTypeConversion/Demo02_ForceTypeConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/MethodIntroduction/MethodIntroduction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Operator/ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo02_Operator/Demo01_ArithmeticOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Operator/TernaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo02_Operator/Demo02_TernaryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_code/src/Demo02_Operator/Demo02_TernaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo02_Operator/Demo05_TernaryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_code/src/JudgementSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_code/src/Demo01_JudgementSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_code/src/LoopSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_code/src/Demo03_LoopSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03_code/src/SelectSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_code/src/Demo02_SelectSentence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +81,7 @@
       <recent name="E:\code_ssl\basic_code\day10_code\src\Polymorphic\BenefitsOfPolymorphic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo02_ForceTypeConversion">
+  <component name="RunManager" selected="Application.Demo03_LoopSentence">
     <configuration name="Demo01_AutomaticTypeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo01_DataTypeConversion.Demo01_AutomaticTypeConversion" />
       <module name="day02_code" />
@@ -99,9 +95,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01_Const" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01_Const" />
-      <module name="day01_code" />
+    <configuration name="Demo01_JudgementSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo01_JudgementSentence" />
+      <module name="day03_code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,9 +115,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02_Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo02_Variable" />
-      <module name="day01_code" />
+    <configuration name="Demo02_SelectSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo02_SelectSentence" />
+      <module name="day03_code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo03_LoopSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03_LoopSentence" />
+      <module name="day03_code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,13 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <module name="day01_code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -198,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo03_LoopSentence" />
+        <item itemvalue="Application.Demo02_SelectSentence" />
+        <item itemvalue="Application.Demo01_JudgementSentence" />
         <item itemvalue="Application.Demo02_ForceTypeConversion" />
         <item itemvalue="Application.Demo01_AutomaticTypeConversion" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.Demo01_Const" />
-        <item itemvalue="Application.Demo02_Variable" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +303,7 @@
       <workItem from="1599453645127" duration="59000" />
       <workItem from="1599454136773" duration="658000" />
       <workItem from="1623902423249" duration="5009000" />
-      <workItem from="1623912435191" duration="7769000" />
+      <workItem from="1623912435191" duration="15313000" />
     </task>
     <servers />
   </component>
