@@ -1,4 +1,4 @@
-public class Demo01Const {
+public class Demo01_Const {
     public static void main(String[] args){
 
         // 输出整数常量

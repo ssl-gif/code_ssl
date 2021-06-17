@@ -1,4 +1,4 @@
-public class Demo02Variable {
+public class Demo02_Variable {
     public static void main(String[] args) {
 
         // 法一：先定义再赋值
