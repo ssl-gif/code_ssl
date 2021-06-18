@@ -1,13 +1,6 @@
+package Demo02_ArrayCommonOperation;
 
-/*
-
-利用循环将数组中的每个元素依次获取出来，就是数组的遍历。遍历是数组操作中的基石。
-
- */
-
-package ArrayCommonOperation;
-
-public class ArrayTraversal {
+public class Demo01_ArrayTraversal {
     public static void main(String[] args) {
 
         int[] array = {1, 2, 3, 4, 5};

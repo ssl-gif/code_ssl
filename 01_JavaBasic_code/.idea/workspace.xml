@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/src/Demo02_Operator/Demo02_TernaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo02_Operator/Demo05_TernaryOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03_code/src/JudgementSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_code/src/Demo01_JudgementSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03_code/src/LoopSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_code/src/Demo03_LoopSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03_code/src/SelectSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_code/src/Demo02_SelectSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02_code/src/Demo02_Operator/Demo05_TernaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/src/Demo02_Operator/Demo02_TernaryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04_code/src/MethodDefine.java" beforeDir="false" afterPath="$PROJECT_DIR$/day04_code/src/Demo01_MethodDefine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04_code/src/MethodOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/day04_code/src/Demo02_MethodOverride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05_code/src/ArrayCommonOperation/ArrayMaxAndMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05_code/src/Demo02_ArrayCommonOperation/Demo02_ArrayMaxAndMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05_code/src/ArrayCommonOperation/ArrayReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05_code/src/Demo02_ArrayCommonOperation/Demo03_ArrayReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05_code/src/ArrayCommonOperation/ArrayTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05_code/src/Demo02_ArrayCommonOperation/Demo01_ArrayTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05_code/src/ArrayDefine/ArrayDefine.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05_code/src/Demo01_ArrayDefine/Demo01_ArrayDefine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -81,13 +84,13 @@
       <recent name="E:\code_ssl\basic_code\day10_code\src\Polymorphic\BenefitsOfPolymorphic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo03_LoopSentence">
-    <configuration name="Demo01_AutomaticTypeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01_DataTypeConversion.Demo01_AutomaticTypeConversion" />
-      <module name="day02_code" />
+  <component name="RunManager" selected="Application.Demo03_ArrayReverse">
+    <configuration name="Demo01_ArrayDefine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo01_ArrayDefine.Demo01_ArrayDefine" />
+      <module name="day05_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo01_DataTypeConversion.*" />
+          <option name="PATTERN" value="Demo01_ArrayDefine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,19 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01_JudgementSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01_JudgementSentence" />
-      <module name="day03_code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo02_ForceTypeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01_DataTypeConversion.Demo02_ForceTypeConversion" />
-      <module name="day02_code" />
+    <configuration name="Demo01_ArrayTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo02_ArrayCommonOperation.Demo01_ArrayTraversal" />
+      <module name="day05_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo01_DataTypeConversion.*" />
+          <option name="PATTERN" value="Demo02_ArrayCommonOperation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,9 +111,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02_SelectSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo02_SelectSentence" />
-      <module name="day03_code" />
+    <configuration name="Demo02_ArrayMaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo02_ArrayCommonOperation.Demo02_ArrayMaxAndMin" />
+      <module name="day05_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_ArrayCommonOperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo03_ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo02_ArrayCommonOperation.Demo03_ArrayReverse" />
+      <module name="day05_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_ArrayCommonOperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,19 +140,6 @@
     <configuration name="Demo03_LoopSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo03_LoopSentence" />
       <module name="day03_code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo04ReferenceTypeUsageSummary.Demo03InterfaceAsMethod.DemoMain" />
-      <module name="day11_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Demo04ReferenceTypeUsageSummary.Demo03InterfaceAsMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,13 +183,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo03_ArrayReverse" />
+        <item itemvalue="Application.Demo02_ArrayMaxAndMin" />
+        <item itemvalue="Application.Demo01_ArrayTraversal" />
+        <item itemvalue="Application.Demo01_ArrayDefine" />
         <item itemvalue="Application.Demo03_LoopSentence" />
-        <item itemvalue="Application.Demo02_SelectSentence" />
-        <item itemvalue="Application.Demo01_JudgementSentence" />
-        <item itemvalue="Application.Demo02_ForceTypeConversion" />
-        <item itemvalue="Application.Demo01_AutomaticTypeConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -293,6 +308,7 @@
       <workItem from="1599454136773" duration="658000" />
       <workItem from="1623902423249" duration="5009000" />
       <workItem from="1623912435191" duration="15313000" />
+      <workItem from="1623982649433" duration="6222000" />
     </task>
     <servers />
   </component>

@@ -1,25 +1,6 @@
+package Demo02_ArrayCommonOperation;
 
-/*
-
-    数组元素的反转，其实就是对称位置的元素交换。具体实现思路如下：
-
-交换最小索引元素与最大索引元素
-交换次小索引元素与次大索引元素
-......
-
-#.注意事项：
-
-(1).借助第三个变量来交换两个变量的值：
-int a = 10;     int b = 20;
-int temp = a;   a = b;  b = temp;
-
-(2).当for循环中有多个循环变量时：初始化语句可以同时初始化多个循环变量，步进表达式也可以同时对多个循环变量进行改变。
-
- */
-
-package ArrayCommonOperation;
-
-public class ArrayReverse {
+public class Demo03_ArrayReverse {
     public static void main(String[] args) {
 
         int[] array = {10, 30, 89, 55, 60};
