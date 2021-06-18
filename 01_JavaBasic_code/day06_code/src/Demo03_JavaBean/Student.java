@@ -1,21 +1,18 @@
-package Encapsulation;
+package Demo03_JavaBean;
 
 public class Student {
 
     private String name;
     private int age;
 
-    // 无参数的构造方法
     public Student() {
     }
 
-    // 有参数的构造方法
     public Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    // get、set方法
     public String getName() {
         return name;
     }
