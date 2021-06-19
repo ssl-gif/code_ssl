@@ -2,36 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day06_code/src/Demo01_ObjectOriented/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_code/src/Demo01_ScannerClass/Demo01_ScannerClass/ScannerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_code/src/Demo02_RandomClass/RandomClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_code/src/Demo03_ArrayListClass/Demo01_ObjectArray/DemoMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_code/day01_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_code/day01_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_code/day02_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day02_code/day02_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03_code/day03_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day03_code/day03_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_code/day04_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day04_code/day04_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05_code/day05_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day05_code/day05_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06_code/day06_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/day06_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06_code/src/Encapsulation/DemoStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/Demo02_Encapsulation/DemoStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06_code/src/Encapsulation/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/Demo02_Encapsulation/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06_code/src/JavaBean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/Demo03_JavaBean/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06_code/src/ObjectOriented/ObjectCreationAndUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/Demo01_ObjectOriented/Demo01_ObjectCreationAndUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06_code/src/ObjectOriented/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07_code/day07_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/day07_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_code/day08_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day08_code/day08_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_code/day09_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/day09_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_code/day10_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day10_code/day10_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11_code/day11_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day11_code/day11_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day01_code/day01_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day01_code/day01_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day02_code/day02_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day02_code/day02_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day03_code/day03_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day03_code/day03_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day04_code/day04_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day04_code/day04_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day05_code/day05_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day05_code/day05_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day06_code/day06_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day06_code/day06_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day07_code/day07_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day07_code/day07_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day08_code/day08_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day08_code/day08_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day09_code/day09_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day09_code/day09_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day10_code/day10_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day10_code/day10_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/day11_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_JavaWeb_code/day11_code/day11_code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06_code/src/Demo01_ObjectOriented/Demo01_ObjectCreationAndUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/Demo01_ObjectOriented/ObjectCreationAndUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06_code/src/Demo02_Encapsulation/DemoStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_code/src/Demo02_Encapsulation/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListPractice/ArrayListPractice01.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo03_ArrayListClass/Demo03_ArrayListPractice/ArrayListPractice01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListPractice/ArrayListPractice02.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo03_ArrayListClass/Demo03_ArrayListPractice/ArrayListPractice02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListPractice/ArrayListPractice03.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo03_ArrayListClass/Demo03_ArrayListPractice/ArrayListPractice03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListUsage/ArrayListBasicDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo03_ArrayListClass/Demo02_ArrayListUsage/Demo03_ArrayListBasicDataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListUsage/ArrayListObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo03_ArrayListClass/Demo02_ArrayListUsage/Demo02_ArrayListObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ArrayListUsage/ArrayListString.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo03_ArrayListClass/Demo02_ArrayListUsage/Demo01_ArrayListString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ObjectArray/ObjectArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ArrayListClass/ObjectArray/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo03_ArrayListClass/Demo01_ObjectArray/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/RandomClass/RandomClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/RandomClass/RandomPractice01.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo02_RandomClass/RandomClassPractice01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/RandomClass/RandomPractice02.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo02_RandomClass/RandomClassPractice02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ScannerClass/AnonymousObject/AnonymousObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo01_ScannerClass/Demo02_AnonymousObject/AnonymousObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ScannerClass/AnonymousObject/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo01_ScannerClass/Demo02_AnonymousObject/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ScannerClass/ScannerClass/ScannerClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_code/src/ScannerClass/ScannerClass/ScannerPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_code/src/Demo01_ScannerClass/Demo01_ScannerClass/ScannerClassPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day06_code/Demo01_ObjectOriented/Demo01_ObjectCreationAndUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day06_code/Demo02_Encapsulation/DemoStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day06_code/Demo03_JavaBean/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day06_code/Demo03_JavaBean/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/day01_code/day01_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/day01_code/src/Demo01Const.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/day01_code/src/Demo02Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/day01_code/src/HelloWorld.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +70,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Scanner.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1YD8n8pgIEvEjlta1YR03BEYn4K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -95,10 +96,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -113,13 +117,13 @@
       <recent name="E:\code_ssl\basic_code\day10_code\src\Polymorphic\BenefitsOfPolymorphic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo01_ObjectCreationAndUse">
-    <configuration name="Demo01_ArrayDefine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01_ArrayDefine.Demo01_ArrayDefine" />
-      <module name="day05_code" />
+  <component name="RunManager" selected="Application.ArrayListPractice03">
+    <configuration name="ArrayListPractice01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03_ArrayListClass.Demo03_ArrayListPractice.ArrayListPractice01" />
+      <module name="day07_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo01_ArrayDefine.*" />
+          <option name="PATTERN" value="Demo03_ArrayListClass.Demo03_ArrayListPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01_ArrayTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo02_ArrayCommonOperation.Demo01_ArrayTraversal" />
-      <module name="day05_code" />
+    <configuration name="ArrayListPractice02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03_ArrayListClass.Demo03_ArrayListPractice.ArrayListPractice02" />
+      <module name="day07_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo02_ArrayCommonOperation.*" />
+          <option name="PATTERN" value="Demo03_ArrayListClass.Demo03_ArrayListPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01_ObjectCreationAndUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01_ObjectOriented.Demo01_ObjectCreationAndUse" />
-      <module name="day06_code" />
+    <configuration name="ArrayListPractice03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03_ArrayListClass.Demo03_ArrayListPractice.ArrayListPractice03" />
+      <module name="day07_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo01_ObjectOriented.*" />
+          <option name="PATTERN" value="Demo03_ArrayListClass.Demo03_ArrayListPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02_ArrayMaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo02_ArrayCommonOperation.Demo02_ArrayMaxAndMin" />
-      <module name="day05_code" />
+    <configuration name="Demo02_ArrayListObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03_ArrayListClass.Demo02_ArrayListUsage.Demo02_ArrayListObject" />
+      <module name="day07_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo02_ArrayCommonOperation.*" />
+          <option name="PATTERN" value="Demo03_ArrayListClass.Demo02_ArrayListUsage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo03_ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo02_ArrayCommonOperation.Demo03_ArrayReverse" />
-      <module name="day05_code" />
+    <configuration name="Demo03_ArrayListBasicDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03_ArrayListClass.Demo02_ArrayListUsage.Demo03_ArrayListBasicDataType" />
+      <module name="day07_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo02_ArrayCommonOperation.*" />
+          <option name="PATTERN" value="Demo03_ArrayListClass.Demo02_ArrayListUsage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,50 +183,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClass.Test.DemoMain" />
-      <module name="day11_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InnerClass.AnonymousInnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphic.PolymorphicUsages.DemoMain" />
-      <module name="day10_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polymorphic.PolymorphicUsages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo01_ObjectCreationAndUse" />
-        <item itemvalue="Application.Demo03_ArrayReverse" />
-        <item itemvalue="Application.Demo02_ArrayMaxAndMin" />
-        <item itemvalue="Application.Demo01_ArrayTraversal" />
-        <item itemvalue="Application.Demo01_ArrayDefine" />
+        <item itemvalue="Application.ArrayListPractice03" />
+        <item itemvalue="Application.ArrayListPractice02" />
+        <item itemvalue="Application.ArrayListPractice01" />
+        <item itemvalue="Application.Demo03_ArrayListBasicDataType" />
+        <item itemvalue="Application.Demo02_ArrayListObject" />
       </list>
     </recent_temporary>
   </component>
@@ -333,6 +313,9 @@
       <workItem from="1623997812609" duration="353000" />
       <workItem from="1623998279346" duration="70000" />
       <workItem from="1624001138524" duration="7401000" />
+      <workItem from="1624024881986" duration="1886000" />
+      <workItem from="1624071591907" duration="4630000" />
+      <workItem from="1624088818549" duration="6220000" />
     </task>
     <servers />
   </component>
