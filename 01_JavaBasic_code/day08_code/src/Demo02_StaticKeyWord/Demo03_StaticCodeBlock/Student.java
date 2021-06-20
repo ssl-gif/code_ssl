@@ -1,4 +1,4 @@
-package Demo02_StaticKeyWord;
+package Demo02_StaticKeyWord.Demo03_StaticCodeBlock;
 
 public class Student {
 
