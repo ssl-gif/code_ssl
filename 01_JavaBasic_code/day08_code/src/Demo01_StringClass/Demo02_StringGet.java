@@ -1,18 +1,6 @@
+package Demo01_StringClass;
 
-/*
-
-(2).字符串的获取相关方法：
-
-public int length()：获取当前字符串的字符个数，即字符串长度
-public String concat(String str)：将当前字符串的尾部拼接上参数字符串，并返回新的字符串
-public char charAt(int index)：获取指定索引位置的单个字符(索引从0开始)
-public int indexOf(String str)：查找参数字符串在当前字符串中首次出现的索引位置，如果没有返回-1值
-
- */
-
-package StringClass;
-
-public class StringGet {
+public class Demo02_StringGet {
     public static void main(String[] args) {
 
         // 获取字符串的长度

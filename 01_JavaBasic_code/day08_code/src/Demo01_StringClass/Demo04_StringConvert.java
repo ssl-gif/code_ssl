@@ -1,19 +1,6 @@
+package Demo01_StringClass;
 
-/*
-
-(4).字符串的转换相关方法：
-
-public char[] toCharArray()：将当前字符串拆分成为字符数组并返回
-public byte[] getBytes()：获得当前字符串底层的字节数组并返回
-public String replace(CharSequence oldString, CharSequence newString)：将所有出现的oldString替换成为newString，并返回替换后的字符串
-
-CharSequence是接口，意思是可以接受字符串类型。
-
- */
-
-package StringClass;
-
-public class StringConvert {
+public class Demo04_StringConvert {
     public static void main(String[] args) {
 
         // 转换成字符数组

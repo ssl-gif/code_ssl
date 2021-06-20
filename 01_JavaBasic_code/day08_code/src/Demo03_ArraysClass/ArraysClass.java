@@ -8,7 +8,7 @@ public static void sort(数组)：对参数数组元素进行升序排序
 
  */
 
-package ArraysClass;
+package Demo03_ArraysClass;
 
 import java.util.Arrays;
 

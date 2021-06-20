@@ -15,7 +15,7 @@
 
  */
 
-package StaticKeyWord;
+package Demo02_StaticKeyWord;
 
 public class StaticCodeBlock {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package StaticKeyWord;
+package Demo02_StaticKeyWord;
 
 public class Student {
 

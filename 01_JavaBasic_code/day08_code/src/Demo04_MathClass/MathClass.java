@@ -12,7 +12,7 @@ Math.PI是Math类的静态常量，为近似的圆周率(double类型)
 
  */
 
-package MathClass;
+package Demo04_MathClass;
 
 public class MathClass {
     public static void main(String[] args) {
