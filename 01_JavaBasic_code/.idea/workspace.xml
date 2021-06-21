@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day08_code/src/Demo02_StaticKeyWord/Demo01_StaticField/DemoStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day08_code/src/Demo02_StaticKeyWord/Demo01_StaticField/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day08_code/src/Demo02_StaticKeyWord/Demo02_StaticMethod/DemoMyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day08_code/src/Demo02_StaticKeyWord/Demo02_StaticMethod/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day08_code/src/Demo02_StaticKeyWord/Demo03_StaticCodeBlock/DemoStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo04_SuperAndThis/Fu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_code/src/Demo02_StaticKeyWord/StaticCodeBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_code/src/Demo02_StaticKeyWord/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_code/src/Demo02_StaticKeyWord/Demo03_StaticCodeBlock/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_code/src/Demo03_ArraysClass/ArraysClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_code/src/Demo03_ArraysClass/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_code/src/Demo04_MathClass/MathClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_code/src/Demo04_MathClass/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day08_code/Demo02_StaticKeyWord/StaticCodeBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day08_code/Demo02_StaticKeyWord/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day08_code/Demo03_ArraysClass/ArraysClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day08_code/Demo04_MathClass/MathClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/AbstractClass/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo02_AbstractClass/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/AbstractClass/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo02_AbstractClass/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/AbstractClass/DemoAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo02_AbstractClass/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/Constructor/DemoConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo02_Constructor/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/Constructor/Fu.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo02_Constructor/Fu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/Constructor/Zi.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo02_Constructor/Zi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/DuplicateMember/DemoDuplicateMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo01_DuplicateMember/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/DuplicateMember/Fu.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo01_DuplicateMember/Fu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/DuplicateMember/Zi.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo01_DuplicateMember/Zi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/MethodOverride/DemoOverride.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/MethodOverride/NewPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo03_MethodOverride/NewPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/MethodOverride/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo03_MethodOverride/OldPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/SuperAndThis/Fu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/Extends/SuperAndThis/Zi.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo01_Extends/Demo04_SuperAndThis/Zi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/ExtendsExample/MainRedPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo03_ExtendsExample/MainRedPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/ExtendsExample/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo03_ExtendsExample/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/ExtendsExample/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo03_ExtendsExample/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_code/src/ExtendsExample/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_code/src/Demo03_ExtendsExample/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +95,10 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code_ssl\basic_code\day11_code\src\ReferenceTypeUsageSummary" />
+      <recent name="E:\code_ssl\basic_code\day10_code\src\Polymorphic\BenefitsOfPolymorphic" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ReferenceTypeUsageSummary.InterfaceAsMemberVariable" />
       <recent name="FinalKeyWords" />
@@ -96,18 +106,40 @@
       <recent name="FinalKeywords" />
       <recent name="InterfaceAndPolymorphicExample" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\code_ssl\basic_code\day11_code\src\ReferenceTypeUsageSummary" />
-      <recent name="E:\code_ssl\basic_code\day10_code\src\Polymorphic\BenefitsOfPolymorphic" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.DemoMain (1)">
+  <component name="RunManager" selected="Application.MainRedPacket">
     <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo04_MathClass.DemoMain" />
       <module name="day08_code" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Demo04_MathClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo01_Extends.Demo02_Constructor.DemoMain" />
+      <module name="day09_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo01_Extends.Demo02_Constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo02_AbstractClass.DemoMain" />
+      <module name="day09_code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo02_AbstractClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo02_StaticKeyWord.Demo02_StaticMethod.DemoMyClass" />
-      <module name="day08_code" />
+    <configuration name="MainRedPacket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo03_ExtendsExample.MainRedPacket" />
+      <module name="day09_code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo02_StaticKeyWord.Demo02_StaticMethod.*" />
+          <option name="PATTERN" value="Demo03_ExtendsExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,52 +173,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoStudent (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo02_StaticKeyWord.Demo01_StaticField.DemoStudent" />
-      <module name="day08_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Demo02_StaticKeyWord.Demo01_StaticField.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo02_StaticKeyWord.Demo03_StaticCodeBlock.DemoStudent" />
-      <module name="day08_code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Demo02_StaticKeyWord.Demo03_StaticCodeBlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainRedPacket" />
+        <item itemvalue="Application.DemoMain (3)" />
+        <item itemvalue="Application.DemoMain (2)" />
         <item itemvalue="Application.DemoMain (1)" />
         <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.DemoMyClass" />
-        <item itemvalue="Application.DemoStudent (1)" />
-        <item itemvalue="Application.DemoStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -302,6 +306,7 @@
       <workItem from="1624088818549" duration="6353000" />
       <workItem from="1624153335397" duration="2263000" />
       <workItem from="1624187467999" duration="5478000" />
+      <workItem from="1624238767318" duration="16749000" />
     </task>
     <servers />
   </component>
