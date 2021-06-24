@@ -21,13 +21,13 @@ public class RedPacketMain {
         RedPacketInterface red = new RedPacketInterface("发红包案例");
 
         // 设置界面上发红包的人
-        red.setOwnerName("ssl");
+        red.setOwnerName("万怡");
 
         // 设置发红包的方式：普通红包
         NormalMode normal = new NormalMode();
         red.setOpenWay(normal);
 
-        // 设置发红包的方式：手气红包
+//         设置发红包的方式：手气红包
 //        RandomMode random = new RandomMode();
 //        red.setOpenWay(random);
 
