@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2283152b-d1d1-4f90-ae6f-1df81a4a3a2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11_code/src/Demo02_InnerClass/Demo02_LocalInnerClass/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11_code/src/Demo02_InnerClass/Demo02_LocalInnerClass/Outer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11_code/src/Demo04_ComprehensiveCase/RedPacketCode/RedPacketMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11_code/src/Demo04_ComprehensiveCase/RedPacketCode/RedPacketMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11_code/src/Demo04_ComprehensiveCase/RedPacketFrame/RedPacketFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11_code/src/Demo04_ComprehensiveCase/RedPacketFrame/RedPacketFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo01_ClassAsMemberVariable/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo01_ClassAsMemberVariable/DemoMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo02_InterfaceAsMemberVariable/DemoMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo02_InterfaceAsMemberVariable/DemoMain$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo02_InterfaceAsMemberVariable/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo02_InterfaceAsMemberVariable/DemoMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo02_InterfaceAsMemberVariable/SkillImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo02_InterfaceAsMemberVariable/SkillImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo03_InterfaceAsMethod/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day11_code/Demo03_ReferenceTypeUsageSummary/Demo03_InterfaceAsMethod/DemoMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day11_code/Demo04_ComprehensiveCase/RedPacketCode/RedPacketMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day11_code/Demo04_ComprehensiveCase/RedPacketCode/RedPacketMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day11_code/Demo04_ComprehensiveCase/RedPacketFrame/RedPacketFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day11_code/Demo04_ComprehensiveCase/RedPacketFrame/RedPacketFrame.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,26 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RedPacketMain" />
         <item itemvalue="Application.DemoMain (2)" />
         <item itemvalue="Application.DemoMain (1)" />
         <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.DemoMain (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +293,7 @@
       <workItem from="1624369344729" duration="19050000" />
       <workItem from="1624500595524" duration="10184000" />
       <workItem from="1624544309354" duration="4736000" />
+      <workItem from="1624688683083" duration="1015000" />
     </task>
     <servers />
   </component>
